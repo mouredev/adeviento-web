@@ -38,29 +38,20 @@ def author() -> rx.Component:
                     ),
                     "."
                 ),
-                rx.mobile_only(
-                    rx.vstack(
-                        author_buttons()
-                    )
-                ),
-                rx.tablet_and_desktop(
-                    rx.hstack(
-                        author_buttons()
-                    )
-                ),
+                author_buttons(),
                 width="100%",
                 align_items="start"
             ),
             align_items="start",
             spacing=Size.BIG.value,
-            flex_direction=["column", "column", "column", "row", "row"]
+            direction=styles.FLEX_DIRECTION
         ),
         style=styles.max_width_style
     )
 
 
 def author_buttons() -> rx.Component:
-    return rx.box(
+    return rx.stack(
         button(
             "YouTube",
             constants.YOUTUBE_URL
@@ -72,7 +63,9 @@ def author_buttons() -> rx.Component:
         button(
             "Discord",
             constants.DISCORD_URL
-        )
+        ),
+        align_items="start",
+        direction=styles.FLEX_DIRECTION
     )
 
 

@@ -6,29 +6,32 @@ from adeviento_web.styles.styles import Size, TextColor
 
 def footer() -> rx.Component:
     return rx.hstack(
-        rx.vstack(
-            rx.text(
-                "Calendario de aDEViento 2023",
-                font_size=Size.MEDIUM.value,
-                margin_bottom=Size.ZERO.value
+        rx.center(
+            rx.vstack(
+                rx.text(
+                    "Calendario de aDEViento 2023",
+                    font_size=Size.MEDIUM.value,
+                    margin_bottom=Size.ZERO.value
+                ),
+                rx.link(
+                    "Creado con ",
+                    rx.box(class_name="nes-icon is-small heart"),
+                    " (y gracias a ti) por MoureDev by Brais Moure",
+                    href=constants.MOUREDEV_URL,
+                    is_external=True,
+                    font_size=Size.MEDIUM.value,
+                    color=TextColor.TERTIARY.value
+                ),
+                align_items="start",
+                spacing=Size.MEDIUM.value
             ),
-            rx.link(
-                "Creado con ",
-                rx.box(class_name="nes-icon is-small heart"),
-                " (y gracias a ti) por MoureDev by Brais Moure",
-                href=constants.MOUREDEV_URL,
-                is_external=True,
-                font_size=Size.MEDIUM.value,
-                color=TextColor.TERTIARY.value
+            rx.spacer(),
+            rx.image(
+                src="logo.png",
+                alt="Logo MoureDev. Una letra \"eme\" entre dos corchetes.",
+                class_name="nes-avatar is-large"
             ),
-            align_items="start",
-            spacing=Size.MEDIUM.value
-        ),
-        rx.spacer(),
-        rx.image(
-            src="logo.png",
-            alt="Logo MoureDev. Una letra \"eme\" entre dos corchetes.",
-            class_name="nes-avatar is-large"
+            width="100%"
         ),
         padding_bottom=Size.BIG.value,
         style=styles.max_width_style

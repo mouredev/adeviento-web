@@ -10,8 +10,8 @@ def navbar() -> rx.Component:
             rx.image(
                 src="mouredev.png",
                 alt="Imagen pixel art de MoureDev con estilo navideño.",
-                width=Size.VERY_BIG.value,
-                height=Size.VERY_BIG.value
+                width="3em",
+                height="3em"
             ),
             rx.text("aDEViento 2023"),
             rx.spacer(),

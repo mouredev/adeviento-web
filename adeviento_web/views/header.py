@@ -45,12 +45,11 @@ def header() -> rx.Component:
                     href=constants.ADEVIENTO_HASHTAG_URL,
                     is_external=True,
                     color=TextColor.TERTIARY.value,
-                    padding_top=Size.BIG.value,
-                    font_size=Size.MEDIUM.value
+                    padding_top=Size.BIG.value
                 ),
                 align_items="start"
             ),
-            flex_direction=["column", "column", "column", "row", "row"]
+            direction=styles.FLEX_DIRECTION
         ),
         padding_top=Size.VERY_BIG.value,
         style=styles.max_width_style

@@ -19,10 +19,10 @@ def index() -> rx.Component:
         rx.center(
             rx.vstack(
                 header(),
-                instructions(),
                 calendar(),
-                author(),
                 partners(),
+                instructions(),
+                author(),
                 footer(),
                 github(),
                 width="100%",
@@ -40,7 +40,11 @@ app = rx.App(
 app.add_page(
     index,
     title="Calendario de aDEViento 2023 | 24 días. 24 regalos.",
-    description="Por tercer año, ¡aquí está el calendario de adviento sorpresa de nuestra comunidad de developers! Del 1 al 24 de diciembre."
+    description="Por tercer año, ¡aquí está el calendario de adviento sorpresa de nuestra comunidad de developers! Del 1 al 24 de diciembre.",
+    image="preview.jpg",
+    meta=[
+        {"name": "twitter:card", "content": "summary_large_image"}
+    ]
 )
 
 app.compile()

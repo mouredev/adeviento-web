@@ -11,13 +11,20 @@ def calendar() -> rx.Component:
     return rx.vstack(
         header_text(
             "heart",
-            "Calendario de aDEViento"
+            "Calendario"
         ),
         rx.vstack(
             rx.hstack(
-                rx.text("El evento comienza en "),
-                rx.text(id="countdown"),
-                align_items="start"
+                rx.text(
+                    "El evento comienza en",
+                    margin_right=Size.DEFAULT.value
+                ),
+                rx.text(
+                    id="countdown",
+                    margin_left=Size.ZERO.value
+                ),
+                align_items="start",
+                flex_direction=styles.FLEX_DIRECTION
             ),
             button(
                 "Recordar",

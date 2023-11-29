@@ -4,6 +4,7 @@ from .fonts import Font
 from .colors import Color, TextColor
 
 MAX_WIDTH = "1000px"
+FLEX_DIRECTION = ["column", "column", "column", "row", "row"]
 
 
 class Size(Enum):
