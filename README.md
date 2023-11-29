@@ -61,7 +61,7 @@ Esta es la estructura general del proyecto.
     python3 -m venv venv
     ```
 
-5. Actuva el entorno virtual.
+5. Activa el entorno virtual.
 
     ```bash
     source venv/bin/activate
