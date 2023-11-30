@@ -43,7 +43,9 @@ def partners() -> rx.Component:
 def _partner_link(image: str, url: str) -> rx.Component:
     return rx.link(
         rx.image(
-            src=image
+            src=image,
+            width="100%",
+            height="100%"
         ),
         href=url,
         is_external=True
