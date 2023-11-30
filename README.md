@@ -16,11 +16,25 @@
 #### Desarrollo realizado en directo desde [Twitch](https://twitch.tv/mouredev)
 > ##### Si consideras útil el proyecto, apóyalo haciendo "★ Star" en el repositorio. ¡Gracias!
 
-## Tutorial
+## Tutorial en vídeo
 
-*[Próximamente]* Publicaré un vídeo con todo el proceso de desarrollo y despliegue de la web.
+<a href="https://youtu.be/h8Tn0ITRoQs"><img src="http://i3.ytimg.com/vi/h8Tn0ITRoQs/maxresdefault.jpg" style="height: 50%; width:50%;"/></a>
 
-Sígueme en mi canal de YouTube secundario "[MoureDev TV](https://youtube.com/@mouredevtv)" para no perdértelo.
+- [Introducción](https://youtu.be/3GymExBkKjE)
+- [Lección 1 - Configuración](https://youtu.be/h8Tn0ITRoQs?t=115)
+- [Lección 2 - Navbar](https://youtu.be/h8Tn0ITRoQs?t=622)
+- [Lección 3 - Header](https://youtu.be/h8Tn0ITRoQs?t=1547)
+- [Lección 4 - Footer](https://youtu.be/h8Tn0ITRoQs?t=2665)
+- [Lección 5 - Instructions](https://youtu.be/h8Tn0ITRoQs?t=4499)
+- [Lección 6 - Author](https://youtu.be/h8Tn0ITRoQs?t=5985)
+- [Lección 7 - Partners](https://youtu.be/h8Tn0ITRoQs?t=7394)
+- [Lección 8 - Calendar](https://youtu.be/h8Tn0ITRoQs?t=7821)
+- [Lección 9 - Repository](https://youtu.be/h8Tn0ITRoQs?t=9077)
+- [Lección 10 - Snow](https://youtu.be/h8Tn0ITRoQs?t=9679)
+- [Lección 11 - Deploy](https://youtu.be/h8Tn0ITRoQs?t=9849)
+- [Conclusiones](https://youtu.be/h8Tn0ITRoQs?t=11505)
+
+> Tienes un canal llamado **"python"** en el servidor de **[Discord](https://mouredev.com/discord)** de la comunidad para preguntar, compartir y ayudar.
 
 ## Proyecto
 
@@ -61,7 +75,7 @@ Esta es la estructura general del proyecto.
     python3 -m venv venv
     ```
 
-5. Actuva el entorno virtual.
+5. Activa el entorno virtual.
 
     ```bash
     source venv/bin/activate
