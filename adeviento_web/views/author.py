@@ -27,7 +27,7 @@ def author() -> rx.Component:
             ),
             rx.vstack(
                 rx.span(
-                    f"Soy ingeniero de software desde hace más de {experience()} años."
+                    f"Soy ingeniero de software desde hace más de {_experience()} años."
                 ),
                 rx.span(
                     "En 2018 comencé a divulgar contenido sobre programación y desarrollo de software en redes sociales como ",
@@ -38,7 +38,7 @@ def author() -> rx.Component:
                     ),
                     "."
                 ),
-                author_buttons(),
+                _author_buttons(),
                 width="100%",
                 align_items="start"
             ),
@@ -50,7 +50,7 @@ def author() -> rx.Component:
     )
 
 
-def author_buttons() -> rx.Component:
+def _author_buttons() -> rx.Component:
     return rx.stack(
         button(
             "YouTube",
@@ -69,5 +69,5 @@ def author_buttons() -> rx.Component:
     )
 
 
-def experience() -> int:
+def _experience() -> int:
     return datetime.date.today().year - 2010

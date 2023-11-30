@@ -12,15 +12,39 @@ def partners() -> rx.Component:
                 "Patrocinado por",
                 False
             ),
-            rx.text(
-                "Con el apoyo de la comunidad y los patrocinadores costearé los 24 regalos. Imagínate tu logo aquí y en todas las comunicaciones diarias durante el evento."
-            ),
-            rx.span(
-                "¿Quieres apoyar esta iniciativa? Escríbeme a braismoure@mouredev.com o envíame un mensaje en redes sociales ¡Gracias!"
+            rx.responsive_grid(
+                _partner_link(
+                    "elgato.png",
+                    "https://e.lga.to/MoureDev"
+                ),
+                _partner_link(
+                    "geekshubs.png",
+                    "https://mouredev.com/geeks"
+                ),
+                _partner_link(
+                    "raiola.png",
+                    "https://mouredev.com/raiola"
+                ),
+                _partner_link(
+                    "nuwe.png",
+                    "https://nuwe.io"
+                ),
+                columns=[2, 2, 4, 4],
+                spacing=Size.VERY_BIG.value
             ),
             padding_y=Size.VERY_BIG.value,
             style=styles.max_width_style
         ),
         bg=Color.ACCENT.value,
         width="100%"
+    )
+
+
+def _partner_link(image: str, url: str) -> rx.Component:
+    return rx.link(
+        rx.image(
+            src=image
+        ),
+        href=url,
+        is_external=True
     )
