@@ -20,12 +20,12 @@
 
 <a href="https://youtu.be/h8Tn0ITRoQs"><img src="http://i3.ytimg.com/vi/h8Tn0ITRoQs/maxresdefault.jpg" style="height: 50%; width:50%;"/></a>
 
-- [Introducción](https://youtu.be/3GymExBkKjE)
+- [Introducción](https://youtu.be/h8Tn0ITRoQs)
 - [Lección 1 - Configuración](https://youtu.be/h8Tn0ITRoQs?t=115)
-- [Lección 2 - Navbar](https://youtu.be/h8Tn0ITRoQs?t=622)
-- [Lección 3 - Header](https://youtu.be/h8Tn0ITRoQs?t=1547)
-- [Lección 4 - Footer](https://youtu.be/h8Tn0ITRoQs?t=2665)
-- [Lección 5 - Instructions](https://youtu.be/h8Tn0ITRoQs?t=4499)
+- [Lección 2 - Navbar](https://youtu.be/h8Tn0ITRoQs?t=1547)
+- [Lección 3 - Header](https://youtu.be/h8Tn0ITRoQs?t=2665)
+- [Lección 4 - Footer](https://youtu.be/h8Tn0ITRoQs?t=4499)
+- [Lección 5 - Instructions](https://youtu.be/h8Tn0ITRoQs?t=5207)
 - [Lección 6 - Author](https://youtu.be/h8Tn0ITRoQs?t=5985)
 - [Lección 7 - Partners](https://youtu.be/h8Tn0ITRoQs?t=7394)
 - [Lección 8 - Calendar](https://youtu.be/h8Tn0ITRoQs?t=7821)
