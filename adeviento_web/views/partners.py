@@ -9,7 +9,7 @@ def partners() -> rx.Component:
         rx.vstack(
             header_text(
                 "star",
-                "Patrocinado por",
+                "Con la ayuda de",
                 False
             ),
             rx.responsive_grid(

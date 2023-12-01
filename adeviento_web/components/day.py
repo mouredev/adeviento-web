@@ -2,14 +2,15 @@ import reflex as rx
 from adeviento_web.styles.styles import Size, Color
 
 
-def day(number: int, image: str = "gift.png", url: str = "") -> rx.Component:
+def day(number: int, text: str = "", url: str = "") -> rx.Component:
     return rx.box(
         rx.cond(
             url != "",
             rx.link(
                 rx.image(
-                    src=image,
-                    alt=f"Regalo asociado al día {number}"
+                    src=f"calendar/{number}.png",
+                    alt=text,
+                    padding=Size.SMALL.value
                 ),
                 href=url,
                 is_external=True,
@@ -19,9 +20,10 @@ def day(number: int, image: str = "gift.png", url: str = "") -> rx.Component:
         rx.cond(
             url == "",
             rx.image(
-                src=image,
+                src="gift.png",
                 alt=f"Regalo asociado al día {number}",
-                position="absolute"
+                position="absolute",
+                padding=Size.SMALL.value
             )
         ),
         rx.text(
@@ -29,8 +31,7 @@ def day(number: int, image: str = "gift.png", url: str = "") -> rx.Component:
             padding=Size.DEFAULT.value,
             position="absolute"
         ),
-        bg=Color.ACCENT.value,
-        width="100%",
+        bg=Color.ACCENT.value if url != "" else Color.SECONDARY.value,
         aspect_ratio="1",
         position="relative"
     )
