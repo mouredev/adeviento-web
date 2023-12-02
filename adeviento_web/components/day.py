@@ -2,7 +2,7 @@ import reflex as rx
 from adeviento_web.styles.styles import Size, Color
 
 
-def day(number: int, text: str = "", url: str = "") -> rx.Component:
+def day(number: int, text: str = "", url: str = "", finished=False) -> rx.Component:
     return rx.box(
         rx.cond(
             url != "",
@@ -31,7 +31,7 @@ def day(number: int, text: str = "", url: str = "") -> rx.Component:
             padding=Size.DEFAULT.value,
             position="absolute"
         ),
-        bg=Color.ACCENT.value if url != "" else Color.SECONDARY.value,
+        bg=Color.TERTIARY.value if finished else Color.ACCENT.value if url != "" else Color.SECONDARY.value,
         aspect_ratio="1",
         position="relative"
     )

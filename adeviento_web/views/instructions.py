@@ -22,11 +22,7 @@ def instructions() -> rx.Component:
                 constants.TWITTER_URL
             ),
             rx.span(
-                "• Al día siguiente realizaré el sorteo de forma pública en directo desde Twitch y compartiré el ganador en la web y en Twitter/X. En caso de que no pueda hacer directo, publicaré un vídeo con el resultado del sorteo."
-            ),
-            button(
-                "Twitch",
-                constants.TWITCH_URL
+                "• Al día siguiente realizaré el sorteo de forma pública y compartiré el ganador en la web y en Twitter/X."
             ),
             rx.span(
                 "• ¡Vuelta a empezar! Publicaré un nuevo regalo y comenzará de nuevo el proceso."

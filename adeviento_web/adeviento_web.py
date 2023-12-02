@@ -10,6 +10,10 @@ from adeviento_web.views.author import author
 from adeviento_web.views.footer import footer
 from adeviento_web.components.github import github
 
+title = "Calendario de aDEViento 2023 | 24 días. 24 regalos."
+description = "Por tercer año, ¡aquí está el calendario de adviento sorpresa de nuestra comunidad de developers! Del 1 al 24 de diciembre."
+preview = "preview.jpg"
+
 
 def index() -> rx.Component:
     return rx.box(
@@ -48,13 +52,18 @@ gtag('config', 'G-Y6GDVB3FJB');
     ],
 )
 
+
 app.add_page(
     index,
-    title="Calendario de aDEViento 2023 | 24 días. 24 regalos.",
-    description="Por tercer año, ¡aquí está el calendario de adviento sorpresa de nuestra comunidad de developers! Del 1 al 24 de diciembre.",
-    image="preview.jpg",
+    title=title,
+    description=description,
+    image=preview,
     meta=[
-        {"name": "twitter:card", "content": "summary_large_image"}
+        {"name": "twitter:card", "content": "summary_large_image"},
+        {"name": "twitter:site", "content": "@mouredev"},
+        {"name": "twitter:title", "content": title},
+        {"name": "twitter:description", "content": description},
+        {"name": "twitter:image", "content": preview}
     ]
 )
 

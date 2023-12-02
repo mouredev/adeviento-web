@@ -11,8 +11,13 @@ from adeviento_web.components.day import day
 _gifts = [
     (
         "(x5) Git y GitHub desde cero: Guía de estudio teórico-práctica paso a paso más curso en vídeo",
-        "https://x.com/MoureDev/status/1730591277752676796?s=20",
+        "https://x.com/MoureDev/status/1730953182199603618?s=20",
         "https://mouredev.link/libro-git"
+    ),
+    (
+        "(x2) Aprende Python en un fin de semana",
+        "https://x.com/MoureDev/status/1730953703010497015?s=20",
+        "https://amzn.to/46F3AFg"
     )
 ]
 
@@ -52,9 +57,15 @@ def calendar() -> rx.Component:
                         is_external=True
                     ),
                     rx.spacer(),
-                    button(
-                        "Participa",
-                        _gift_url(_current_day)
+                    rx.hstack(
+                        button(
+                            "Participa",
+                            _gift_url(_current_day)
+                        ),
+                        button(
+                            f"Día {_current_day - 1}",
+                            _gift_url(_current_day - 1)
+                        )
                     ),
                     align_items="start",
                     margin_top=Size.BIG.value
@@ -65,9 +76,10 @@ def calendar() -> rx.Component:
             align_items="start"
         ),
         rx.responsive_grid(
-            day(1, _gift_name(1), _gift_url(1)),
+            day(1, _gift_name(1), _gift_url(1), True),
+            day(2, _gift_name(2), _gift_url(2)),
             rx.foreach(
-                list(range(2, 25)),
+                list(range(3, 25)),
                 lambda number:
                 day(
                     number
@@ -97,6 +109,9 @@ def calendar() -> rx.Component:
             # ),
             rx.span(
                 "• Los regalos son sorpresa, permanecerán ocultos hasta el día de su publicación. No olvides pasarte por aquí cada día para descubrir un nuevo sorteo."
+            ),
+            rx.span(
+                "• Puedes seleccionar cada regalo para conocer a los ganadores una vez se haya publicado el nuevo sorteo (aparecerá en verde)."
             ),
             class_name="nes-container is-dark",
             align_items="start",
