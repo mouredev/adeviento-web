@@ -31,7 +31,7 @@ def day(number: int, text: str = "", url: str = "", finished=False) -> rx.Compon
             padding=Size.DEFAULT.value,
             position="absolute"
         ),
-        bg=Color.TERTIARY.value if finished else Color.ACCENT.value if url != "" else Color.SECONDARY.value,
+        bg=Color.ACCENT.value if finished else Color.TERTIARY.value if url != "" else Color.SECONDARY.value,
         aspect_ratio="1",
         position="relative"
     )

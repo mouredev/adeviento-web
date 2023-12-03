@@ -16,8 +16,13 @@ _gifts = [
     ),
     (
         "(x2) Aprende Python en un fin de semana",
-        "https://x.com/MoureDev/status/1730953703010497015?s=20",
+        "https://x.com/MoureDev/status/1731319751589101977?s=20",
         "https://amzn.to/46F3AFg"
+    ),
+    (
+        "(x2) Cursos de Programación en SQL",
+        "https://x.com/MoureDev/status/1731320381175120180?s=20",
+        "https://www.udemy.com/course/el-mejor-curso-de-sql"
     )
 ]
 
@@ -57,7 +62,7 @@ def calendar() -> rx.Component:
                         is_external=True
                     ),
                     rx.spacer(),
-                    rx.hstack(
+                    rx.flex(
                         button(
                             "Participa",
                             _gift_url(_current_day)
@@ -65,21 +70,25 @@ def calendar() -> rx.Component:
                         button(
                             f"Día {_current_day - 1}",
                             _gift_url(_current_day - 1)
-                        )
+                        ),
+                        align_items="start",
+                        direction=styles.FLEX_DIRECTION
                     ),
                     align_items="start",
                     margin_top=Size.BIG.value
                 ),
                 direction=styles.FLEX_DIRECTION
             ),
+            width="100%",
             class_name="nes-container is-dark with-title",
             align_items="start"
         ),
         rx.responsive_grid(
             day(1, _gift_name(1), _gift_url(1), True),
-            day(2, _gift_name(2), _gift_url(2)),
+            day(2, _gift_name(2), _gift_url(2), True),
+            day(3, _gift_name(3), _gift_url(3)),
             rx.foreach(
-                list(range(3, 25)),
+                list(range(4, 25)),
                 lambda number:
                 day(
                     number
@@ -111,7 +120,7 @@ def calendar() -> rx.Component:
                 "• Los regalos son sorpresa, permanecerán ocultos hasta el día de su publicación. No olvides pasarte por aquí cada día para descubrir un nuevo sorteo."
             ),
             rx.span(
-                "• Puedes seleccionar cada regalo para conocer a los ganadores una vez se haya publicado el nuevo sorteo (aparecerá en verde)."
+                "• Puedes seleccionar cada regalo para conocer a los ganadores una vez se haya publicado el nuevo sorteo (aparecerá en rojo)."
             ),
             class_name="nes-container is-dark",
             align_items="start",

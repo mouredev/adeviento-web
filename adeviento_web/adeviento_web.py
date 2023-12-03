@@ -12,7 +12,7 @@ from adeviento_web.components.github import github
 
 title = "Calendario de aDEViento 2023 | 24 días. 24 regalos."
 description = "Por tercer año, ¡aquí está el calendario de adviento sorpresa de nuestra comunidad de developers! Del 1 al 24 de diciembre."
-preview = "preview.jpg"
+preview = "https://adviento.dev/preview.jpg"
 
 
 def index() -> rx.Component:
@@ -59,11 +59,12 @@ app.add_page(
     description=description,
     image=preview,
     meta=[
+        {"name": "og:type", "content": "website"},
+        {"name": "og:title", "content": title},
+        {"name": "og:description", "content": description},
+        {"name": "og:image", "content": preview},
         {"name": "twitter:card", "content": "summary_large_image"},
-        {"name": "twitter:site", "content": "@mouredev"},
-        {"name": "twitter:title", "content": title},
-        {"name": "twitter:description", "content": description},
-        {"name": "twitter:image", "content": preview}
+        {"name": "twitter:site", "content": "@mouredev"}
     ]
 )
 

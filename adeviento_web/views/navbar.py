@@ -15,9 +15,11 @@ def navbar() -> rx.Component:
             ),
             rx.text("aDEViento 2023"),
             rx.spacer(),
-            link_icon(
-                "youtube",
-                constants.YOUTUBE_URL
+            rx.tablet_and_desktop(
+                link_icon(
+                    "youtube",
+                    constants.YOUTUBE_URL
+                )
             ),
             link_icon(
                 "twitch",

@@ -2,6 +2,7 @@ import reflex as rx
 import adeviento_web.constants as constants
 import adeviento_web.styles.styles as styles
 from adeviento_web.styles.styles import Size, TextColor
+from adeviento_web.components.button import button
 
 
 def header() -> rx.Component:
@@ -40,12 +41,15 @@ def header() -> rx.Component:
                 rx.span(
                     "Su finalidad es ayudar a compartir conocimiento y fomentar el aprendizaje en comunidad."
                 ),
+                button(
+                    "Discord",
+                    constants.DISCORD_URL
+                ),
                 rx.link(
                     "#aDEViento2023",
                     href=constants.ADEVIENTO_HASHTAG_URL,
                     is_external=True,
-                    color=TextColor.TERTIARY.value,
-                    padding_top=Size.BIG.value
+                    color=TextColor.TERTIARY.value
                 ),
                 align_items="start"
             ),
