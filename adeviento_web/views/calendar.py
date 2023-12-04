@@ -21,8 +21,13 @@ _gifts = [
     ),
     (
         "(x2) Cursos de Programación en SQL",
-        "https://x.com/MoureDev/status/1731320381175120180?s=20",
+        "https://x.com/MoureDev/status/1731674979014479924?s=20",
         "https://www.udemy.com/course/el-mejor-curso-de-sql"
+    ),
+    (
+        "(x1) El programador pragmático",
+        "https://x.com/MoureDev/status/1731675726594678985?s=20",
+        "https://amzn.to/3t4lBiw"
     )
 ]
 
@@ -86,9 +91,10 @@ def calendar() -> rx.Component:
         rx.responsive_grid(
             day(1, _gift_name(1), _gift_url(1), True),
             day(2, _gift_name(2), _gift_url(2), True),
-            day(3, _gift_name(3), _gift_url(3)),
+            day(3, _gift_name(3), _gift_url(3), True),
+            day(_current_day, _gift_name(_current_day), _gift_url(_current_day)),
             rx.foreach(
-                list(range(4, 25)),
+                list(range(_current_day + 1, 25)),
                 lambda number:
                 day(
                     number
