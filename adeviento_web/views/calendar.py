@@ -42,7 +42,7 @@ def calendar() -> rx.Component:
         ),
         rx.vstack(
             rx.text(
-                "El regalo del hoy",
+                "El regalo de hoy",
                 class_name="title",
                 color=TextColor.ACCENT.value
             ),
