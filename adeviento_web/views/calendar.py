@@ -26,8 +26,13 @@ _gifts = [
     ),
     (
         "(x1) El programador pragmático",
-        "https://x.com/MoureDev/status/1731675726594678985?s=20",
+        "https://x.com/MoureDev/status/1731674979014479924?s=20",
         "https://amzn.to/3t4lBiw"
+    ),
+    (
+        "(x2) Patrones de diseño",
+        "https://x.com/MoureDev/status/1732039161702736184?s=20",
+        "https://refactoring.guru/es/design-patterns/book"
     )
 ]
 
@@ -42,7 +47,7 @@ def calendar() -> rx.Component:
         ),
         rx.vstack(
             rx.text(
-                "El regalo del hoy",
+                "El regalo de hoy",
                 class_name="title",
                 color=TextColor.ACCENT.value
             ),
@@ -92,6 +97,7 @@ def calendar() -> rx.Component:
             day(1, _gift_name(1), _gift_url(1), True),
             day(2, _gift_name(2), _gift_url(2), True),
             day(3, _gift_name(3), _gift_url(3), True),
+            day(4, _gift_name(4), _gift_url(4), True),
             day(_current_day, _gift_name(_current_day), _gift_url(_current_day)),
             rx.foreach(
                 list(range(_current_day + 1, 25)),
