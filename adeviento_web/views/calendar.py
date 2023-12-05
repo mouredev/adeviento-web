@@ -26,7 +26,7 @@ _gifts = [
     ),
     (
         "(x1) El programador pragmático",
-        "https://x.com/MoureDev/status/1731674979014479924?s=20",
+        "https://x.com/MoureDev/status/1732038845741637724?s=20",
         "https://amzn.to/3t4lBiw"
     ),
     (
