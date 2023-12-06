@@ -31,8 +31,13 @@ _gifts = [
     ),
     (
         "(x2) Patrones de diseño",
-        "https://x.com/MoureDev/status/1732039161702736184?s=20",
+        "https://x.com/MoureDev/status/1732401556304368096?s=20",
         "https://refactoring.guru/es/design-patterns/book"
+    ),
+    (
+        "(x2) Jetpack Compose desde 0",
+        "https://x.com/MoureDev/status/1732402098195554706?s=20",
+        "https://www.appcademy.dev/jetpack-compose-curso-definitivo-desde-0-2023"
     )
 ]
 
@@ -98,6 +103,7 @@ def calendar() -> rx.Component:
             day(2, _gift_name(2), _gift_url(2), True),
             day(3, _gift_name(3), _gift_url(3), True),
             day(4, _gift_name(4), _gift_url(4), True),
+            day(5, _gift_name(5), _gift_url(5), True),
             day(_current_day, _gift_name(_current_day), _gift_url(_current_day)),
             rx.foreach(
                 list(range(_current_day + 1, 25)),
