@@ -41,12 +41,17 @@ _gifts = [
     ),
     (
         "(x2) Aprendiendo JavaScript",
-        "https://x.com/MoureDev/status/1732761824695574996?s=20",
+        "https://x.com/MoureDev/status/1733124831049064821?s=20",
         "https://carlosazaustre.es/libros/aprendiendo-javascript"
+    ),
+    (
+        "(x1) Cracking the Coding Interview",
+        "https://x.com/MoureDev/status/1733125529023176861?s=20",
+        "https://amzn.to/3TbQQCT"
     )
 ]
 
-_current_day = len(_gifts)
+_current_day = len(_gifts) - 1
 
 
 def calendar() -> rx.Component:
@@ -64,7 +69,7 @@ def calendar() -> rx.Component:
             rx.flex(
                 rx.box(
                     day(
-                        _current_day,
+                        _current_day + 1,
                         _gift_name(_current_day),
                         _gift_url(_current_day),
                     ),
@@ -75,7 +80,7 @@ def calendar() -> rx.Component:
                 ),
                 rx.vstack(
                     rx.span(
-                        f"Día {_current_day}"),
+                        f"Día {_current_day + 1}"),
                     rx.link(
                         _gift_name(_current_day),
                         href=_gift_info(_current_day),
@@ -88,7 +93,7 @@ def calendar() -> rx.Component:
                             _gift_url(_current_day)
                         ),
                         button(
-                            f"Día {_current_day - 1}",
+                            f"Día {_current_day}",
                             _gift_url(_current_day - 1)
                         ),
                         align_items="start",
@@ -104,20 +109,18 @@ def calendar() -> rx.Component:
             align_items="start"
         ),
         rx.responsive_grid(
-            day(1, _gift_name(1), _gift_url(1), True),
-            day(2, _gift_name(2), _gift_url(2), True),
-            day(3, _gift_name(3), _gift_url(3), True),
-            day(4, _gift_name(4), _gift_url(4), True),
-            day(5, _gift_name(5), _gift_url(5), True),
-            day(6, _gift_name(6), _gift_url(6), True),
-            day(_current_day, _gift_name(_current_day), _gift_url(_current_day)),
-            rx.foreach(
-                list(range(_current_day + 1, 25)),
-                lambda number:
+            *[
                 day(
-                    number
-                )
-            ),
+                    number + 1,
+                    _gift_name(number),
+                    _gift_url(number),
+                    False if len(_gifts) - 1 == number else True)
+                for _, number in enumerate(range(0, _current_day + 1))
+            ],
+            *[
+                day(number)
+                for _, number in enumerate(range(_current_day + 2, 25))
+            ],
             columns=[3, 3, 4, 5, 6],
             spacing=Size.DEFAULT.value,
             width="100%",
@@ -156,21 +159,21 @@ def calendar() -> rx.Component:
 
 
 def _gift_name(gift) -> str:
-    gift_index = gift - 1
+    gift_index = gift
     if len(_gifts) > gift_index:
         return _gifts[gift_index][0]
     return ""
 
 
 def _gift_url(gift) -> str:
-    gift_index = gift - 1
+    gift_index = gift
     if len(_gifts) > gift_index:
         return _gifts[gift_index][1]
     return ""
 
 
 def _gift_info(gift) -> str:
-    gift_index = gift - 1
+    gift_index = gift
     if len(_gifts) > gift_index:
         return _gifts[gift_index][2]
     return ""
