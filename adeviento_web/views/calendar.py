@@ -46,8 +46,13 @@ _gifts = [
     ),
     (
         "(x1) Cracking the Coding Interview",
-        "https://x.com/MoureDev/status/1733125529023176861?s=20",
+        "https://x.com/MoureDev/status/1733493029187506208?s=20",
         "https://amzn.to/3TbQQCT"
+    ),
+    (
+        "(x2) Aprende SQL en un fin de semana",
+        "https://x.com/MoureDev/status/1733493470889713767?s=20",
+        "https://amzn.to/4abT0Iy"
     )
 ]
 
