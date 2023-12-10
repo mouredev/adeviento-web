@@ -51,8 +51,13 @@ _gifts = [
     ),
     (
         "(x2) Aprende SQL en un fin de semana",
-        "https://x.com/MoureDev/status/1733493470889713767?s=20",
+        "https://x.com/MoureDev/status/1733853435106062754?s=20",
         "https://amzn.to/4abT0Iy"
+    ),
+    (
+        "(x2) Aprende HTML desde cero",
+        "https://x.com/MoureDev/status/1733853859548684694?s=20",
+        "https://amzn.to/46Q1N03"
     )
 ]
 
