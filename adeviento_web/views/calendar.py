@@ -56,8 +56,13 @@ _gifts = [
     ),
     (
         "(x2) Aprende HTML desde cero",
-        "https://x.com/MoureDev/status/1733853859548684694?s=20",
+        "https://x.com/MoureDev/status/1734220123332866337?s=20",
         "https://amzn.to/46Q1N03"
+    ),
+    (
+        "(x2) Suscripciones de 1 mes a Hack4u",
+        "https://x.com/MoureDev/status/1734220557929885822?s=20",
+        "https://hack4u.io"
     )
 ]
 
