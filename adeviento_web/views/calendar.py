@@ -66,7 +66,7 @@ _gifts = [
     ),
     (
         "(x1) Máster en Desarrollo de Apps y Programación Web",
-        "https://x.com/MoureDev/status/1734582524335018380?s=20",
+        "https://x.com/MoureDev/status/1734583936129396897?s=20",
         "https://immune.institute/programas/master-en-desarrollo-de-apps-y-programacion-web"
     )
 ]
