@@ -71,8 +71,13 @@ _gifts = [
     ),
     (
         "(x1) Clean JavaScript",
-        "https://x.com/MoureDev/status/1734936817600753928?s=20",
+        "https://x.com/MoureDev/status/1735300234601812256?s=20",
         "https://amzn.to/3NkDlwX"
+    ),
+    (
+        "(x1) Hosting anual + dominio",
+        "https://x.com/MoureDev/status/1735300955128594854?s=20",
+        "https://mouredev.link/raiola"
     )
 ]
 
