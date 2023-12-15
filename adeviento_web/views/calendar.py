@@ -76,8 +76,13 @@ _gifts = [
     ),
     (
         "(x1) Hosting anual + dominio",
-        "https://x.com/MoureDev/status/1735300955128594854?s=20",
+        "https://x.com/MoureDev/status/1735660556357415400?s=20",
         "https://mouredev.link/raiola"
+    ),
+    (
+        "(x1) Diseño Ágil con TDD con Python",
+        "https://x.com/MoureDev/status/1735661004346839102?s=20",
+        "https://savvily.es/libros/diseno-agil-con-tdd/"
     )
 ]
 
