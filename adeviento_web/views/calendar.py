@@ -81,8 +81,13 @@ _gifts = [
     ),
     (
         "(x1) Diseño Ágil con TDD con Python",
-        "https://x.com/MoureDev/status/1735661004346839102?s=20",
+        "https://x.com/MoureDev/status/1736035091720098207?s=20",
         "https://savvily.es/libros/diseno-agil-con-tdd/"
+    ),
+    (
+        "(x2) El Último Programador: La lucha contra la IA",
+        "https://x.com/MoureDev/status/1736035598396219394?s=20",
+        "https://amzn.to/3RroYYR"
     )
 ]
 
