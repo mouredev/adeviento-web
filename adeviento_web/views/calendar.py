@@ -86,8 +86,13 @@ _gifts = [
     ),
     (
         "(x2) El Último Programador: La lucha contra la IA",
-        "https://x.com/MoureDev/status/1736035598396219394?s=20",
+        "https://x.com/MoureDev/status/1736388829488066830?s=20",
         "https://amzn.to/3RroYYR"
+    ),
+    (
+        "(x2) Ultimate Docker",
+        "https://x.com/MoureDev/status/1736389195139027068?s=20",
+        "https://academia.holamundo.io/courses/ultimate-docker"
     )
 ]
 
