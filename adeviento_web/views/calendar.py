@@ -91,8 +91,13 @@ _gifts = [
     ),
     (
         "(x2) Ultimate Docker",
-        "https://x.com/MoureDev/status/1736389195139027068?s=20",
+        "https://x.com/MoureDev/status/1736749139671552229?s=20",
         "https://academia.holamundo.io/courses/ultimate-docker"
+    ),
+    (
+        "(x1) Código sostenible",
+        "https://x.com/MoureDev/status/1736749419888783362?s=20",
+        "https://savvily.es/libros/codigo-sostenible/"
     )
 ]
 
