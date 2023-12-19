@@ -96,8 +96,13 @@ _gifts = [
     ),
     (
         "(x1) Código sostenible",
-        "https://x.com/MoureDev/status/1736749419888783362?s=20",
+        "https://x.com/MoureDev/status/1737112235192078817?s=20",
         "https://savvily.es/libros/codigo-sostenible/"
+    ),
+    (
+        "(x2) Flutter Móvil: De cero a experto",
+        "https://x.com/MoureDev/status/1737113554317451602?s=20",
+        "https://fernando-herrera.com/course/flutter-cero-experto"
     )
 ]
 
