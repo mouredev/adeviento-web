@@ -101,8 +101,13 @@ _gifts = [
     ),
     (
         "(x2) Flutter Móvil: De cero a experto",
-        "https://x.com/MoureDev/status/1737113554317451602?s=20",
+        "https://x.com/MoureDev/status/1737475599076061500?s=20",
         "https://fernando-herrera.com/course/flutter-cero-experto"
+    ),
+    (
+        "(x1) Elgato Stream Deck + (x2) SD Mobile",
+        "https://x.com/MoureDev/status/1737476247662293087?s=20",
+        "https://www.elgato.com/es/es/p/stream-deck-plus-black"
     )
 ]
 
