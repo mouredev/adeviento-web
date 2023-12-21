@@ -106,8 +106,13 @@ _gifts = [
     ),
     (
         "(x1) Elgato Stream Deck + (x2) SD Mobile",
-        "https://x.com/MoureDev/status/1737476247662293087?s=20",
+        "https://x.com/MoureDev/status/1737836327562010744?s=20",
         "https://www.elgato.com/es/es/p/stream-deck-plus-black"
+    ),
+    (
+        "(x2) Aprendiendo React",
+        "https://x.com/MoureDev/status/1737836880618803286?s=20",
+        "https://amzn.to/3toE0Xr"
     )
 ]
 
