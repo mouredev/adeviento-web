@@ -111,8 +111,13 @@ _gifts = [
     ),
     (
         "(x2) Aprendiendo React",
-        "https://x.com/MoureDev/status/1737836880618803286?s=20",
+        "https://x.com/MoureDev/status/1738199777320259618?s=20",
         "https://amzn.to/3toE0Xr"
+    ),
+    (
+        "(x1) La artesanía del código limpio",
+        "https://x.com/MoureDev/status/1738199872489005166?s=20",
+        "https://amzn.to/3tlN3IK"
     )
 ]
 
