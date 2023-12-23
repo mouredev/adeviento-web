@@ -116,8 +116,13 @@ _gifts = [
     ),
     (
         "(x1) La artesanía del código limpio",
-        "https://x.com/MoureDev/status/1738199872489005166?s=20",
+        "https://x.com/MoureDev/status/1738562772558905396?s=20",
         "https://amzn.to/3tlN3IK"
+    ),
+    (
+        "(x1) Curso intensivo de Python (Edición 2024)",
+        "https://x.com/MoureDev/status/1738563361812439080?s=20",
+        "https://amzn.to/4azB6Q6"
     )
 ]
 
