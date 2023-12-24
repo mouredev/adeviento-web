@@ -121,9 +121,14 @@ _gifts = [
     ),
     (
         "(x1) Curso intensivo de Python (Edición 2024)",
-        "https://x.com/MoureDev/status/1738563361812439080?s=20",
+        "https://x.com/MoureDev/status/1738932601774059528?s=20",
         "https://amzn.to/4azB6Q6"
-    )
+    ),
+    (
+        "(x5) Git y GitHub desde cero: Guía de estudio teórico-práctica paso a paso más curso en vídeo",
+        "https://x.com/MoureDev/status/1738933450663473617?s=20",
+        "https://mouredev.link/libro-git"
+    ),
 ]
 
 _current_day = len(_gifts) - 1
@@ -204,7 +209,8 @@ def calendar() -> rx.Component:
         rx.vstack(
             rx.hstack(
                 rx.text(
-                    "Próximo regalo y ganadores en",
+                    # "Próximo regalo y ganadores en",
+                    "Ganadores en",
                     margin_right=Size.DEFAULT.value
                 ),
                 rx.text(
