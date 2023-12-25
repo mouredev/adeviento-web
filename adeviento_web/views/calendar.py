@@ -126,9 +126,9 @@ _gifts = [
     ),
     (
         "(x5) Git y GitHub desde cero: Guía de estudio teórico-práctica paso a paso más curso en vídeo",
-        "https://x.com/MoureDev/status/1738933450663473617?s=20",
+        "https://x.com/MoureDev/status/1739289550294266340?s=20",
         "https://mouredev.link/libro-git"
-    ),
+    )
 ]
 
 _current_day = len(_gifts) - 1
@@ -138,69 +138,71 @@ def calendar() -> rx.Component:
     return rx.vstack(
         header_text(
             "heart",
-            "Calendario"
+            "Calendario 2023 (finalizado). ¡Muchas gracias por participar!"
         ),
-        rx.vstack(
-            rx.text(
-                "El regalo de hoy",
-                class_name="title",
-                color=TextColor.ACCENT.value
-            ),
-            rx.flex(
-                rx.box(
-                    day(
-                        _current_day + 1,
-                        _gift_name(_current_day),
-                        _gift_url(_current_day),
-                    ),
-                    height="14em",
-                    width="14em",
-                    aspect_ratio="1",
-                    margin_right=Size.BIG.value
-                ),
-                rx.vstack(
-                    rx.span(
-                        f"Día {_current_day + 1}"),
-                    rx.link(
-                        _gift_name(_current_day),
-                        href=_gift_info(_current_day),
-                        is_external=True
-                    ),
-                    rx.spacer(),
-                    rx.flex(
-                        button(
-                            "Participa",
-                            _gift_url(_current_day)
-                        ),
-                        button(
-                            f"Día {_current_day}",
-                            _gift_url(_current_day - 1)
-                        ),
-                        align_items="start",
-                        direction=styles.FLEX_DIRECTION
-                    ),
-                    align_items="start",
-                    margin_top=Size.BIG.value
-                ),
-                direction=styles.FLEX_DIRECTION
-            ),
-            width="100%",
-            class_name="nes-container is-dark with-title",
-            align_items="start"
-        ),
+        # rx.vstack(
+        #     rx.text(
+        #         "El regalo de hoy",
+        #         class_name="title",
+        #         color=TextColor.ACCENT.value
+        #     ),
+        #     rx.flex(
+        #         rx.box(
+        #             day(
+        #                 _current_day + 1,
+        #                 _gift_name(_current_day),
+        #                 _gift_url(_current_day),
+        #             ),
+        #             height="14em",
+        #             width="14em",
+        #             aspect_ratio="1",
+        #             margin_right=Size.BIG.value
+        #         ),
+        #         rx.vstack(
+        #             rx.span(
+        #                 f"Día {_current_day + 1}"),
+        #             rx.link(
+        #                 _gift_name(_current_day),
+        #                 href=_gift_info(_current_day),
+        #                 is_external=True
+        #             ),
+        #             rx.spacer(),
+        #             rx.flex(
+        #                 button(
+        #                     "Participa",
+        #                     _gift_url(_current_day)
+        #                 ),
+        #                 button(
+        #                     f"Día {_current_day}",
+        #                     _gift_url(_current_day - 1)
+        #                 ),
+        #                 align_items="start",
+        #                 direction=styles.FLEX_DIRECTION
+        #             ),
+        #             align_items="start",
+        #             margin_top=Size.BIG.value
+        #         ),
+        #         direction=styles.FLEX_DIRECTION
+        #     ),
+        #     width="100%",
+        #     class_name="nes-container is-dark with-title",
+        #     align_items="start"
+        # ),
         rx.responsive_grid(
             *[
                 day(
                     number + 1,
                     _gift_name(number),
                     _gift_url(number),
-                    False if len(_gifts) - 1 == number else True)
+                    True,  # finalizado
+                    # False if len(_gifts) - 1 == number else True),
+                )
                 for _, number in enumerate(range(0, _current_day + 1))
             ],
-            *[
-                day(number)
-                for _, number in enumerate(range(_current_day + 2, 25))
-            ],
+            # *[
+            #     day(number)
+            #     for _, number in enumerate(range(_current_day + 2, 25))
+            # ]
             columns=[3, 3, 4, 5, 6],
             spacing=Size.DEFAULT.value,
             width="100%",
@@ -210,7 +212,7 @@ def calendar() -> rx.Component:
             rx.hstack(
                 rx.text(
                     # "Próximo regalo y ganadores en",
-                    "Ganadores en",
+                    "Calendario 2024 en",
                     margin_right=Size.DEFAULT.value
                 ),
                 rx.text(
