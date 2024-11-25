@@ -50,7 +50,8 @@ Esta es la estructura general del proyecto.
 * **rxconfig.py**: configuración principal del proyecto (por defecto)
 * **requirements.txt**: dependencias del proyecto para su ejecución
 * **assets**: recursos gráficos y utilidades JavaScript (nive y cuenta atrás)
-* **build.sh**: script de generación estática de la web para producción
+* **local_build.sh**: script de generación estática de la web para producción en local
+* **build.sh**: script de generación estática de la web para producción en remoto
 * **[generado] public**: empaquetado estático del proyecto que se despliega en producción (HTML, CSS, JS e imágenes)
 
 ## Configuración en local
@@ -105,9 +106,9 @@ Esta es la estructura general del proyecto.
 
 ## Despliegue
 
-Para realizar el despliegue del proyecto se ha creado un archivo `build.sh` que se encarga de ejecutar el flujo necesario para generar el directorio `public` con todos los recursos estáticos que necesita el servidor web. 
+Para realizar el despliegue del proyecto se ha creado un archivo `local_build.sh` que se encarga de ejecutar el flujo necesario para generar el directorio `public` con todos los recursos estáticos que necesita el servidor web. 
 
-Todo el proceso de empaquetado para producción podría ser delegado en el servidor, pero el repositorio cuenta siempre con el directorio `public` para que así puedas revisar el contenido estático de la web sin necesidad de ejecutar el script `build.sh`.
+Todo el proceso de empaquetado para producción podría ser delegado en el servidor, pero el repositorio cuenta siempre con el directorio `public` para que así puedas revisar el contenido estático de la web sin necesidad de ejecutar el script `local_build.sh`.
 
 ```bash
 source .venv/bin/activate
@@ -122,6 +123,8 @@ deactivate
 ```
 
 *Básicamente, prepera el entorno, instala dependencias, inicializa el proyecto, crea la construcción de producción, y la descomprime.*
+
+Puedes configurar el servidor para que realice la tarea de empaquetado y despliegue ejecutando `build.sh`.
 
 > El proyecto se puede desplegar en cualquier proveedor o servidor que soporte recursos estáticos.
 > 
