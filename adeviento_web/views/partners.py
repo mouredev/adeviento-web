@@ -19,19 +19,19 @@ def partners() -> rx.Component:
                     "Elgato"
                 ),
                 _partner_link(
-                    "geekshubs.png",
-                    "https://mouredev.com/geeks",
-                    "GeeksHubs"
-                ),
-                _partner_link(
                     "raiola.png",
-                    "https://mouredev.com/raiola",
+                    "https://mouredev.link/raiola",
                     "Raiola Networks"
                 ),
                 _partner_link(
                     "nuwe.png",
                     "https://nuwe.io",
                     "NUWE"
+                ),
+                _partner_link(
+                    "mouredevpro.png",
+                    "https://mouredev.pro",
+                    "mouredev pro"
                 ),
                 columns=[2, 2, 4, 4],
                 spacing=Size.VERY_BIG.value

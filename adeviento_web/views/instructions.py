@@ -18,7 +18,7 @@ def instructions() -> rx.Component:
             rx.span("• Puedes participar desde cualquier parte del mundo."),
             rx.span("• Sólo tendrás que hacer Retweet a la publicación que enlazaré desde esta web. Tu cuenta de Twitter/X tiene que ser pública."),
             button(
-                "Twitter",
+                "Twitter/X",
                 constants.TWITTER_URL
             ),
             rx.span(

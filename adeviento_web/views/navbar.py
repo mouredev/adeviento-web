@@ -13,7 +13,7 @@ def navbar() -> rx.Component:
                 width="3em",
                 height="3em"
             ),
-            rx.text("aDEViento 2023"),
+            rx.text("aDEViento 2024"),
             rx.spacer(),
             rx.tablet_and_desktop(
                 link_icon(

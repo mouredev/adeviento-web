@@ -8,7 +8,7 @@ from adeviento_web.components.button import button
 def header() -> rx.Component:
     return rx.vstack(
         rx.heading(
-            "Calendario de aDEViento 2023",
+            "Calendario de aDEViento 2024",
             size="lg",
             padding_bottom=Size.DEFAULT.value
         ),
@@ -27,7 +27,7 @@ def header() -> rx.Component:
                     class_name="nes-balloon from-left is-dark"
                 ),
                 rx.span(
-                    "Por tercer año, ¡aquí está el calendario de adviento sorpresa de nuestra ",
+                    "Por cuarto año, ¡aquí está el calendario de adviento sorpresa de nuestra ",
                     rx.span(
                         "comunidad de developers",
                         color=TextColor.ACCENT.value,
@@ -46,7 +46,7 @@ def header() -> rx.Component:
                     constants.DISCORD_URL
                 ),
                 rx.link(
-                    "#aDEViento2023",
+                    "#aDEViento2024",
                     href=constants.ADEVIENTO_HASHTAG_URL,
                     is_external=True,
                     color=TextColor.TERTIARY.value
