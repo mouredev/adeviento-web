@@ -9,7 +9,7 @@ def footer() -> rx.Component:
         rx.center(
             rx.vstack(
                 rx.text(
-                    "Calendario de aDEViento 2023",
+                    "Calendario de aDEViento 2024",
                     font_size=Size.MEDIUM.value,
                     margin_bottom=Size.ZERO.value
                 ),
