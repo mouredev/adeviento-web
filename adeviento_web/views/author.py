@@ -14,24 +14,25 @@ def author() -> rx.Component:
             "Hola, mi nombre es Brais Moure"
         ),
         rx.flex(
-            rx.avatar(
-                name="Brais Moure",
-                size="2xl",
+            rx.image(
                 src="avatar.jpg",
+                width="128px",
+                height="128px",
                 bg=Color.PRIMARY.value,
                 padding="2px",
-                border="4px",
-                border_color=Color.SECONDARY.value,
+                border=f"4px solid {str(Color.SECONDARY.value)}",
+                border_radius="50%",
                 margin_right=Size.SMALL.value,
                 margin_bottom=Size.SMALL.value
             ),
             rx.vstack(
-                rx.span(
-                    f"Soy ingeniero de software desde hace más de {_experience()} años."
+                rx.el.span(
+                    f"Soy ingeniero de software desde hace más de {
+                        _experience()} años."
                 ),
-                rx.span(
+                rx.el.span(
                     "En 2018 comencé a divulgar contenido sobre programación y desarrollo de software en redes sociales como ",
-                    rx.span(
+                    rx.el.span(
                         "@mouredev",
                         color=TextColor.ACCENT.value,
                         font_size=Size.DEFAULT.value
@@ -44,14 +45,14 @@ def author() -> rx.Component:
             ),
             align_items="start",
             spacing=Size.BIG.value,
-            direction=styles.FLEX_DIRECTION
+            flex_direction=styles.FLEX_DIRECTION
         ),
         style=styles.max_width_style
     )
 
 
 def _author_buttons() -> rx.Component:
-    return rx.stack(
+    return rx.flex(
         button(
             "YouTube",
             constants.YOUTUBE_URL
@@ -65,7 +66,7 @@ def _author_buttons() -> rx.Component:
             constants.DISCORD_URL
         ),
         align_items="start",
-        direction=styles.FLEX_DIRECTION
+        flex_direction=styles.FLEX_DIRECTION
     )
 
 

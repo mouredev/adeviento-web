@@ -26,21 +26,21 @@ BASE_STYLE = {
     "font_family": Font.DEFAULT.value,
     "color": TextColor.PRIMARY.value,
     "background": Color.PRIMARY.value,
-    rx.Heading: {
+    rx.heading: {
         "font_family": Font.DEFAULT.value,
         "color": TextColor.ACCENT.value
     },
-    rx.Link: {
+    rx.link: {
         "text_decoration": "none",
         "_hover": {
             "color": TextColor.ACCENT.value,
             "text_decoration": "none"
         }
     },
-    rx.Span: {
+    rx.el.span: {
         "font_size": Size.MEDIUM.value
     },
-    rx.Button: {
+    rx.button: {
         "margin_bottom": Size.DEFAULT.value,
         "height": Size.BUTTON.value,
         "color": f"{TextColor.SECONDARY.value} !important",

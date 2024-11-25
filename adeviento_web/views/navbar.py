@@ -29,6 +29,7 @@ def navbar() -> rx.Component:
                 "github",
                 constants.GITHUB_URL
             ),
+            align="center",
             width="100%"
         ),
         bg=Color.PRIMARY.value,

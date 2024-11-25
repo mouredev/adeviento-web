@@ -26,19 +26,19 @@ def header() -> rx.Component:
                     rx.text("Del 1 al 24 de diciembre."),
                     class_name="nes-balloon from-left is-dark"
                 ),
-                rx.span(
+                rx.el.span(
                     "Por cuarto año, ¡aquí está el calendario de adviento sorpresa de nuestra ",
-                    rx.span(
+                    rx.el.span(
                         "comunidad de developers",
                         color=TextColor.ACCENT.value,
                         font_size=Size.DEFAULT.value
                     ),
                     "!"
                 ),
-                rx.span(
+                rx.el.span(
                     "Una actividad en la que cada día sortearé un regalo relacionado con programación y desarrollo de software (libros, cursos…)."
                 ),
-                rx.span(
+                rx.el.span(
                     "Su finalidad es ayudar a compartir conocimiento y fomentar el aprendizaje en comunidad."
                 ),
                 button(
@@ -53,7 +53,7 @@ def header() -> rx.Component:
                 ),
                 align_items="start"
             ),
-            direction=styles.FLEX_DIRECTION
+            flex_direction=styles.FLEX_DIRECTION
         ),
         padding_top=Size.VERY_BIG.value,
         style=styles.max_width_style

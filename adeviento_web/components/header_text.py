@@ -13,5 +13,6 @@ def header_text(icon: str, text: str, dark=True) -> rx.Component:
             color=TextColor.ACCENT.value if dark else TextColor.SECONDARY.value
         ),
         spacing=Size.DEFAULT.value,
-        padding_bottom=Size.BUTTON.value
+        padding_bottom=Size.BUTTON.value,
+        align="center"
     )

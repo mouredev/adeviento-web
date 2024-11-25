@@ -8,10 +8,10 @@ def github() -> rx.Component:
 
         rx.vstack(
             rx.vstack(
-                rx.span(
+                rx.el.span(
                     "Proyecto"
                 ),
-                rx.span(
+                rx.el.span(
                     "en GitHub"
                 ),
                 align_items="start",
@@ -19,7 +19,7 @@ def github() -> rx.Component:
                 margin_bottom=Size.BIG.value
             ),
             rx.box(
-                rx.span(
+                rx.el.span(
                     constants.VERSION,
                     class_name="is-error"
                 ),

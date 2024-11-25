@@ -15,7 +15,7 @@ def footer() -> rx.Component:
                 ),
                 rx.link(
                     "Creado con ",
-                    rx.box(class_name="nes-icon is-small heart"),
+                    rx.el.i(class_name="nes-icon is-small heart"),
                     " (y gracias a ti) por MoureDev by Brais Moure",
                     href=constants.MOUREDEV_URL,
                     is_external=True,

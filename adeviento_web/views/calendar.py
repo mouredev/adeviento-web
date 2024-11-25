@@ -37,10 +37,10 @@ def calendar() -> rx.Component:
             #     "Recordar",
             #     constants.DISCORD_EVENT_URL
             # ),
-            rx.span(
+            rx.el.span(
                 "• Los regalos son sorpresa, permanecerán ocultos hasta el día de su publicación. No olvides pasarte por aquí cada día para descubrir un nuevo sorteo."
             ),
-            rx.span(
+            rx.el.span(
                 "• Puedes seleccionar cada regalo para conocer a los ganadores una vez se haya publicado el nuevo sorteo (aparecerá en rojo)."
             ),
             class_name="nes-container is-dark",
@@ -95,7 +95,7 @@ def calendar() -> rx.Component:
         #     class_name="nes-container is-dark with-title",
         #     align_items="start"
         # ),
-        rx.responsive_grid(
+        rx.grid(
             *[
                 day(
                     number + 1,
@@ -110,7 +110,14 @@ def calendar() -> rx.Component:
                 day(number)
                 for _, number in enumerate(range(_current_day + 2, 25))
             ],
-            columns=[3, 3, 4, 5, 6],
+            columns=rx.breakpoints(
+                initial="2",
+                xs="3",
+                sm="4",
+                md="5",
+                lg="6",
+                xl="6"
+            ),
             spacing=Size.DEFAULT.value,
             width="100%",
             padding_y=Size.BIG.value

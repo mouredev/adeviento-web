@@ -12,7 +12,7 @@ def partners() -> rx.Component:
                 "Con la ayuda de",
                 False
             ),
-            rx.responsive_grid(
+            rx.grid(
                 _partner_link(
                     "elgato.png",
                     "https://e.lga.to/MoureDev",
@@ -33,13 +33,21 @@ def partners() -> rx.Component:
                     "https://mouredev.pro",
                     "mouredev pro"
                 ),
-                columns=[2, 2, 4, 4],
+                columns=rx.breakpoints(
+                    initial="2",
+                    xs="2",
+                    sm="4",
+                    md="4",
+                    lg="4",
+                    xl="4"
+                ),
                 spacing=Size.VERY_BIG.value
             ),
             padding_y=Size.VERY_BIG.value,
             style=styles.max_width_style
         ),
         bg=Color.ACCENT.value,
+        align="center",
         width="100%"
     )
 

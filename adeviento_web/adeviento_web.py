@@ -20,18 +20,17 @@ def index() -> rx.Component:
         rx.script("document.documentElement.lang='es'"),
         rx.script(src="/js/snow.js"),
         navbar(),
-        rx.center(
-            rx.vstack(
-                header(),
-                calendar(),
-                partners(),
-                instructions(),
-                author(),
-                footer(),
-                github(),
-                width="100%",
-                spacing=Size.VERY_BIG.value
-            )
+        rx.vstack(
+            header(),
+            calendar(),
+            partners(),
+            instructions(),
+            author(),
+            footer(),
+            github(),
+            align="center",
+            width="100%",
+            spacing=Size.VERY_BIG.value
         )
     )
 
@@ -67,5 +66,3 @@ app.add_page(
         {"name": "twitter:site", "content": "@mouredev"}
     ]
 )
-
-app.compile()
