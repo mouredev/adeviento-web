@@ -20,7 +20,7 @@ def author() -> rx.Component:
                 height="128px",
                 bg=Color.PRIMARY.value,
                 padding="2px",
-                border=f"4px solid {str(Color.SECONDARY.value)}",
+                border=f"4px solid {Color.SECONDARY.value}",
                 border_radius="50%",
                 margin_right=Size.SMALL.value,
                 margin_bottom=Size.SMALL.value
