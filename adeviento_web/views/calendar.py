@@ -11,8 +11,13 @@ from adeviento_web.components.day import day
 _gifts = [
     (
         "Git y GitHub desde cero: Guía de estudio teórico-práctica paso a paso más curso en vídeo",
-        "https://x.com/MoureDev/status/1863232011986481217",
+        "https://x.com/MoureDev/status/1863584564389498883",
         "https://mouredev.link/libro-git"
+    ),
+    (
+        "Suscripción mensual a mouredev pro: Estudia programación de manera diferente",
+        "https://x.com/MoureDev/status/1863584856883503396",
+        "https://mouredev.pro"
     ),
 ]
 
