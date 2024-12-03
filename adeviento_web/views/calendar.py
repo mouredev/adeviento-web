@@ -16,8 +16,13 @@ _gifts = [
     ),
     (
         "Suscripción mensual a mouredev pro: Estudia programación de manera diferente",
-        "https://x.com/MoureDev/status/1863584856883503396",
+        "https://x.com/MoureDev/status/1863948284823224616",
         "https://mouredev.pro"
+    ),
+    (
+        "Entiende la tecnología: Desde la caída de Megaupload hasta los secretos de la IA",
+        "https://x.com/MoureDev/status/1863949221172277384",
+        "https://amzn.to/41g9Fsx"
     ),
 ]
 
