@@ -21,8 +21,13 @@ _gifts = [
     ),
     (
         "Entiende la tecnología: Desde la caída de Megaupload hasta los secretos de la IA",
-        "https://x.com/MoureDev/status/1863949221172277384",
+        "https://x.com/MoureDev/status/1864305488852115509",
         "https://amzn.to/41g9Fsx"
+    ),
+    (
+        "Dominando JavaScript: Técnicas avanzadas para el desarrollo web moderno",
+        "https://x.com/MoureDev/status/1864307624226804174",
+        "https://amzn.to/4glh3av"
     ),
 ]
 
