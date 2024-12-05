@@ -26,9 +26,14 @@ _gifts = [
     ),
     (
         "Dominando JavaScript: Técnicas avanzadas para el desarrollo web moderno",
-        "https://x.com/MoureDev/status/1864307624226804174",
+        "https://x.com/MoureDev/status/1864671641638252558",
         "https://amzn.to/4glh3av"
     ),
+    (
+        "Código Sostenible: Cómo programar código fácil de mantener",
+        "https://x.com/MoureDev/status/1864672472223666625",
+        "https://savvily.es/libros/codigo-sostenible/"
+    )
 ]
 
 _current_day = len(_gifts) - 1
