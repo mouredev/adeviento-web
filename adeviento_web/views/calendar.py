@@ -31,8 +31,13 @@ _gifts = [
     ),
     (
         "Código Sostenible: Cómo programar código fácil de mantener",
-        "https://x.com/MoureDev/status/1864672472223666625",
-        "https://savvily.es/libros/codigo-sostenible/"
+        "https://x.com/MoureDev/status/1865031348630569137",
+        "https://savvily.es/libros/codigo-sostenible"
+    ),
+    (
+        "Suscripción mensual a Commit Academy",
+        "https://x.com/MoureDev/status/1865032273852031188",
+        "https://www.commitacademy.io"
     )
 ]
 
