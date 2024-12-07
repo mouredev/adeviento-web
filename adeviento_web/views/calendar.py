@@ -36,8 +36,13 @@ _gifts = [
     ),
     (
         "Suscripción mensual a Commit Academy",
-        "https://x.com/MoureDev/status/1865032273852031188",
+        "https://x.com/MoureDev/status/1865405635010953329",
         "https://www.commitacademy.io"
+    ),
+    (
+        "Ultimate Python: de cero a experto",
+        "https://x.com/MoureDev/status/1865406013878268021",
+        "https://amzn.to/4f1Hd0Q"
     )
 ]
 
