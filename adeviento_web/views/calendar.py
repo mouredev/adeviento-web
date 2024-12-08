@@ -41,8 +41,13 @@ _gifts = [
     ),
     (
         "Ultimate Python: de cero a experto",
-        "https://x.com/MoureDev/status/1865406013878268021",
+        "https://x.com/MoureDev/status/1865764060899528831",
         "https://amzn.to/4f1Hd0Q"
+    ),
+    (
+        "Aprender a programar con C#",
+        "https://x.com/MoureDev/status/1865764417721483342",
+        "https://amzn.to/3D5m4FK"
     )
 ]
 
