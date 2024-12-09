@@ -46,8 +46,13 @@ _gifts = [
     ),
     (
         "Aprender a programar con C#",
-        "https://x.com/MoureDev/status/1865764417721483342",
+        "https://x.com/MoureDev/status/1866118735733391715",
         "https://amzn.to/3D5m4FK"
+    ),
+    (
+        "Git y GitHub desde cero: Guía de estudio teórico-práctica paso a paso más curso en vídeo",
+        "https://x.com/MoureDev/status/1866120081102561552",
+        "https://mouredev.link/libro-git"
     )
 ]
 
