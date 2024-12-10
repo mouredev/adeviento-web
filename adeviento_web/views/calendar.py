@@ -51,9 +51,14 @@ _gifts = [
     ),
     (
         "Git y GitHub desde cero: Guía de estudio teórico-práctica paso a paso más curso en vídeo",
-        "https://x.com/MoureDev/status/1866120081102561552",
+        "https://x.com/MoureDev/status/1866474265555464506",
         "https://mouredev.link/libro-git"
-    )
+    ),
+    (
+        "Suscripción mensual a mouredev pro: Estudia programación de manera diferente",
+        "https://x.com/MoureDev/status/1866474623518507213",
+        "https://mouredev.pro"
+    ),
 ]
 
 _current_day = len(_gifts) - 1
