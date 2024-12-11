@@ -56,9 +56,14 @@ _gifts = [
     ),
     (
         "Suscripción mensual a mouredev pro: Estudia programación de manera diferente",
-        "https://x.com/MoureDev/status/1866474623518507213",
+        "https://x.com/MoureDev/status/1866846649496056029",
         "https://mouredev.pro"
     ),
+    (
+        "Curso Jetpack Compose o Firebase AppCademy",
+        "https://x.com/MoureDev/status/1866847176762216505",
+        "https://www.appcademy.dev"
+    )
 ]
 
 _current_day = len(_gifts) - 1
