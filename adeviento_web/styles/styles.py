@@ -18,6 +18,7 @@ class Size(Enum):
 
 
 STYLESHEETS = [
+    "/css/main.css",
     "https://unpkg.com/nes.css@latest/css/nes.min.css",
     "https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap"
 ]

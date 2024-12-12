@@ -1,0 +1,7 @@
+/* Debería ser suficiente el rx.link del styles.py */
+a {
+    color: #FFFFFF !important;
+}
+a:hover {
+    color: #EA5940 !important;
+}

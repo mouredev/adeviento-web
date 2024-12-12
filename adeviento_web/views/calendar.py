@@ -61,9 +61,44 @@ _gifts = [
     ),
     (
         "Curso Jetpack Compose o Firebase AppCademy",
-        "https://x.com/MoureDev/status/1866847176762216505",
+        "https://x.com/MoureDev/status/1867211119858741427",
         "https://www.appcademy.dev"
-    )
+    ),
+    (
+        "Suscripción mensual a Hack4u: Aprende ciberseguridad",
+        "https://x.com/MoureDev/status/1867211492279615699",
+        "https://hack4u.io"
+    ),
+    # (
+    #     "El programador pragmático: Viaje a la maestría",
+    #     "https://x.com/MoureDev/",
+    #     "https://amzn.to/4g9awQx"
+    # ),
+    # (
+    #     "Suscripción mensual a Metal Code: Cursos enfocados al aprendizaje por conceptos",
+    #     "https://x.com/MoureDev/",
+    #     "https://courses.metalcode.io"
+    # ),
+    # (
+    #     "Suscripción mensual a Hola Mundo: Cursos de programación para todo el mundo",
+    #     "https://x.com/MoureDev/",
+    #     "https://academia.holamundo.io"
+    # ),
+    # (
+    #     "Git y GitHub desde cero: Guía de estudio teórico-práctica paso a paso más curso en vídeo",
+    #     "https://x.com/MoureDev/",
+    #     "https://mouredev.link/libro-git"
+    # ),
+    # (
+    #     "Suscripción mensual a mouredev pro: Estudia programación de manera diferente",
+    #     "https://x.com/MoureDev/",
+    #     "https://mouredev.pro"
+    # ),
+    # (
+    #     "No todo es programar: 10 habilidades que todo programador necesita",
+    #     "https://x.com/MoureDev/",
+    #     "https://amzn.to/3ZMCDPw"
+    # )
 ]
 
 _current_day = len(_gifts) - 1
