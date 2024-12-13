@@ -66,14 +66,14 @@ _gifts = [
     ),
     (
         "Suscripción mensual a Hack4u: Aprende ciberseguridad",
-        "https://x.com/MoureDev/status/1867211492279615699",
+        "https://x.com/MoureDev/status/1867571444101919104",
         "https://hack4u.io"
     ),
-    # (
-    #     "El programador pragmático: Viaje a la maestría",
-    #     "https://x.com/MoureDev/",
-    #     "https://amzn.to/4g9awQx"
-    # ),
+    (
+        "El programador pragmático: Viaje a la maestría",
+        "https://x.com/MoureDev/status/1867574081450914260",
+        "https://amzn.to/4g9awQx"
+    ),
     # (
     #     "Suscripción mensual a Metal Code: Cursos enfocados al aprendizaje por conceptos",
     #     "https://x.com/MoureDev/",
