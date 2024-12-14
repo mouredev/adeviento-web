@@ -71,14 +71,14 @@ _gifts = [
     ),
     (
         "El programador pragmático: Viaje a la maestría",
-        "https://x.com/MoureDev/status/1867574081450914260",
+        "https://x.com/MoureDev/status/1867953183001088098",
         "https://amzn.to/4g9awQx"
     ),
-    # (
-    #     "Suscripción mensual a Metal Code: Cursos enfocados al aprendizaje por conceptos",
-    #     "https://x.com/MoureDev/",
-    #     "https://courses.metalcode.io"
-    # ),
+    (
+        "Suscripción mensual a Metal Code: Cursos enfocados al aprendizaje por conceptos",
+        "https://x.com/MoureDev/status/1867953745436577913",
+        "https://courses.metalcode.io"
+    ),
     # (
     #     "Suscripción mensual a Hola Mundo: Cursos de programación para todo el mundo",
     #     "https://x.com/MoureDev/",
