@@ -76,14 +76,14 @@ _gifts = [
     ),
     (
         "Suscripción mensual a Metal Code: Cursos enfocados al aprendizaje por conceptos",
-        "https://x.com/MoureDev/status/1867953745436577913",
+        "https://x.com/MoureDev/status/1868286906120991048",
         "https://courses.metalcode.io"
     ),
-    # (
-    #     "Suscripción mensual a Hola Mundo: Cursos de programación para todo el mundo",
-    #     "https://x.com/MoureDev/",
-    #     "https://academia.holamundo.io"
-    # ),
+    (
+        "Suscripción mensual a Hola Mundo: Cursos de programación para todo el mundo",
+        "https://x.com/MoureDev/status/1868287401145352623",
+        "https://academia.holamundo.io"
+    ),
     # (
     #     "Git y GitHub desde cero: Guía de estudio teórico-práctica paso a paso más curso en vídeo",
     #     "https://x.com/MoureDev/",
