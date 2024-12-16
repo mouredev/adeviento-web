@@ -81,14 +81,14 @@ _gifts = [
     ),
     (
         "Suscripción mensual a Hola Mundo: Cursos de programación para todo el mundo",
-        "https://x.com/MoureDev/status/1868287401145352623",
+        "https://x.com/MoureDev/status/1868664418483273859",
         "https://academia.holamundo.io"
     ),
-    # (
-    #     "Git y GitHub desde cero: Guía de estudio teórico-práctica paso a paso más curso en vídeo",
-    #     "https://x.com/MoureDev/",
-    #     "https://mouredev.link/libro-git"
-    # ),
+    (
+        "Git y GitHub desde cero: Guía de estudio teórico-práctica paso a paso más curso en vídeo",
+        "https://x.com/MoureDev/status/1868666266191585382",
+        "https://mouredev.link/libro-git"
+    ),
     # (
     #     "Suscripción mensual a mouredev pro: Estudia programación de manera diferente",
     #     "https://x.com/MoureDev/",
