@@ -86,14 +86,14 @@ _gifts = [
     ),
     (
         "Git y GitHub desde cero: Guía de estudio teórico-práctica paso a paso más curso en vídeo",
-        "https://x.com/MoureDev/status/1868666266191585382",
+        "https://x.com/MoureDev/status/1869019301396779037",
         "https://mouredev.link/libro-git"
     ),
-    # (
-    #     "Suscripción mensual a mouredev pro: Estudia programación de manera diferente",
-    #     "https://x.com/MoureDev/",
-    #     "https://mouredev.pro"
-    # ),
+    (
+        "Suscripción mensual a mouredev pro: Estudia programación de manera diferente",
+        "https://x.com/MoureDev/status/1869019617253081558",
+        "https://mouredev.pro"
+    ),
     # (
     #     "No todo es programar: 10 habilidades que todo programador necesita",
     #     "https://x.com/MoureDev/",
