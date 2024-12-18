@@ -91,14 +91,14 @@ _gifts = [
     ),
     (
         "Suscripción mensual a mouredev pro: Estudia programación de manera diferente",
-        "https://x.com/MoureDev/status/1869019617253081558",
+        "https://x.com/MoureDev/status/1869421281998946500",
         "https://mouredev.pro"
     ),
-    # (
-    #     "No todo es programar: 10 habilidades que todo programador necesita",
-    #     "https://x.com/MoureDev/",
-    #     "https://amzn.to/3ZMCDPw"
-    # )
+    (
+        "No todo es programar: 10 habilidades que todo programador necesita",
+        "https://x.com/MoureDev/status/1869421627680903559",
+        "https://amzn.to/3ZMCDPw"
+    )
 ]
 
 _current_day = len(_gifts) - 1
