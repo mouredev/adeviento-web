@@ -96,8 +96,13 @@ _gifts = [
     ),
     (
         "No todo es programar: 10 habilidades que todo programador necesita",
-        "https://x.com/MoureDev/status/1869421627680903559",
+        "https://x.com/MoureDev/status/1869749468855484767",
         "https://amzn.to/3ZMCDPw"
+    ),
+    (
+        "Clean JavaScript: Código Limpio, SOLID y testing",
+        "https://x.com/MoureDev/status/1869750149708501097",
+        "https://cleanjavascript.es"
     )
 ]
 
