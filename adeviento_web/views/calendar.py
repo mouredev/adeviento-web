@@ -101,8 +101,13 @@ _gifts = [
     ),
     (
         "Clean JavaScript: Código Limpio, SOLID y testing",
-        "https://x.com/MoureDev/status/1869750149708501097",
+        "https://x.com/MoureDev/status/1870103870837264610",
         "https://cleanjavascript.es"
+    ),
+    (
+        "Patrones de diseño",
+        "https://x.com/MoureDev/status/1870106494492197128",
+        "https://refactoring.guru/es/design-patterns/book"
     )
 ]
 
