@@ -106,9 +106,19 @@ _gifts = [
     ),
     (
         "Patrones de diseño",
-        "https://x.com/MoureDev/status/1870106494492197128",
+        "https://x.com/MoureDev/status/1870471993562476946",
         "https://refactoring.guru/es/design-patterns/book"
-    )
+    ),
+    (
+        "Curso intensivo de Python",
+        "https://x.com/MoureDev/status/1870473685725024504",
+        "https://amzn.to/4gnfg4Y"
+    ),
+    # (
+    #     "Dominio .dev (o .com) anual en Raiola Networks",
+    #     "",
+    #     "https://mouredev.link/raiola"
+    # )
 ]
 
 _current_day = len(_gifts) - 1
