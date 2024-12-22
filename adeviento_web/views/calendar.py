@@ -111,14 +111,14 @@ _gifts = [
     ),
     (
         "Curso intensivo de Python",
-        "https://x.com/MoureDev/status/1870473685725024504",
+        "https://x.com/MoureDev/status/1870849647360766330",
         "https://amzn.to/4gnfg4Y"
     ),
-    # (
-    #     "Dominio .dev (o .com) anual en Raiola Networks",
-    #     "",
-    #     "https://mouredev.link/raiola"
-    # )
+    (
+        "Dominio .dev (o .com) anual en Raiola Networks",
+        "https://x.com/MoureDev/status/1870850018388963540",
+        "https://mouredev.link/raiola"
+    )
 ]
 
 _current_day = len(_gifts) - 1
