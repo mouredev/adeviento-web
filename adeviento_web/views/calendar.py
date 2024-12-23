@@ -116,9 +116,14 @@ _gifts = [
     ),
     (
         "Dominio .dev (o .com) anual en Raiola Networks",
-        "https://x.com/MoureDev/status/1870850018388963540",
+        "https://x.com/MoureDev/status/1871213692160721380",
         "https://mouredev.link/raiola"
-    )
+    ),
+    (
+        "Git y GitHub desde cero: Guía de estudio teórico-práctica paso a paso más curso en vídeo",
+        "https://x.com/MoureDev/status/1871214567491293436",
+        "https://mouredev.link/libro-git"
+    ),
 ]
 
 _current_day = len(_gifts) - 1
