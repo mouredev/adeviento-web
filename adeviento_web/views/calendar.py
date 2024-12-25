@@ -126,7 +126,7 @@ _gifts = [
     ),
     (
         "Suscripción anual a mouredev pro: Estudia programación de manera diferente",
-        "https://x.com/MoureDev/status/1871558826761261301",
+        "https://x.com/MoureDev/status/1871934793124061382",
         "https://mouredev.pro"
     )
 ]
@@ -138,67 +138,67 @@ def calendar() -> rx.Component:
     return rx.vstack(
         header_text(
             "heart",
-            "Calendario 2024"
+            "Calendario 2024.¡Feliz Navidad!"
         ),
-        rx.vstack(
-            rx.text(
-                "El regalo de hoy",
-                class_name="title",
-                color=TextColor.ACCENT.value
-            ),
-            rx.flex(
-                rx.box(
-                    day(
-                        _current_day + 1,
-                        _gift_name(_current_day),
-                        _gift_url(_current_day),
-                    ),
-                    height="14em",
-                    width="14em",
-                    aspect_ratio="1",
-                    margin_right=Size.BIG.value
-                ),
-                rx.vstack(
-                    rx.el.span(
-                        f"Día {_current_day + 1}"),
-                    rx.link(
-                        _gift_name(_current_day),
-                        href=_gift_info(_current_day),
-                        is_external=True
-                    ),
-                    rx.spacer(),
-                    rx.flex(
-                        button(
-                            "Participa",
-                            _gift_url(_current_day)
-                        ),
-                        rx.cond(
-                            _current_day > 1,
-                            button(
-                                f"Día {_current_day}",
-                                _gift_url(_current_day - 1)
-                            )
-                        ),
-                        align_items="start",
-                        flex_direction=styles.FLEX_DIRECTION
-                    ),
-                    align_items="start",
-                    margin_top=Size.BIG.value
-                ),
-                flex_direction=styles.FLEX_DIRECTION
-            ),
-            width="100%",
-            class_name="nes-container is-dark with-title",
-            align_items="start"
-        ),
+        # rx.vstack(
+        #     rx.text(
+        #         "El regalo de hoy",
+        #         class_name="title",
+        #         color=TextColor.ACCENT.value
+        #     ),
+        #     rx.flex(
+        #         rx.box(
+        #             day(
+        #                 _current_day + 1,
+        #                 _gift_name(_current_day),
+        #                 _gift_url(_current_day),
+        #             ),
+        #             height="14em",
+        #             width="14em",
+        #             aspect_ratio="1",
+        #             margin_right=Size.BIG.value
+        #         ),
+        #         rx.vstack(
+        #             rx.el.span(
+        #                 f"Día {_current_day + 1}"),
+        #             rx.link(
+        #                 _gift_name(_current_day),
+        #                 href=_gift_info(_current_day),
+        #                 is_external=True
+        #             ),
+        #             rx.spacer(),
+        #             rx.flex(
+        #                 button(
+        #                     "Participa",
+        #                     _gift_url(_current_day)
+        #                 ),
+        #                 rx.cond(
+        #                     _current_day > 1,
+        #                     button(
+        #                         f"Día {_current_day}",
+        #                         _gift_url(_current_day - 1)
+        #                     )
+        #                 ),
+        #                 align_items="start",
+        #                 flex_direction=styles.FLEX_DIRECTION
+        #             ),
+        #             align_items="start",
+        #             margin_top=Size.BIG.value
+        #         ),
+        #         flex_direction=styles.FLEX_DIRECTION
+        #     ),
+        #     width="100%",
+        #     class_name="nes-container is-dark with-title",
+        #     align_items="start"
+        # ),
         rx.grid(
             *[
                 day(
                     number + 1,
                     _gift_name(number),
                     _gift_url(number),
-                    False if len(_gifts) - 1 == number else True
-                    # True,  # finalizado
+                    # False if len(_gifts) - 1 == number else True
+                    True,  # finalizado
                 )
                 for _, number in enumerate(range(0, _current_day + 1))
             ],
@@ -218,35 +218,35 @@ def calendar() -> rx.Component:
             width="100%",
             padding_y=Size.BIG.value
         ),
-        rx.vstack(
-            rx.hstack(
-                rx.text(
-                    "Próximo regalo y ganadores en",
-                    # "Calendario 2024 en",
-                    margin_right=Size.DEFAULT.value
-                ),
-                rx.text(
-                    id="countdown",
-                    margin_left=Size.ZERO.value
-                ),
-                align_items="start",
-                flex_direction=styles.FLEX_DIRECTION
-            ),
-            # button(
-            #     "Recordar",
-            #     constants.DISCORD_EVENT_URL
-            # ),
-            rx.el.span(
-                "• Los regalos son sorpresa, permanecerán ocultos hasta el día de su publicación. No olvides pasarte por aquí cada día para descubrir un nuevo sorteo."
-            ),
-            rx.el.span(
-                "• Puedes seleccionar cada regalo para conocer a los ganadores una vez se haya publicado el nuevo sorteo (aparecerá en rojo)."
-            ),
-            class_name="nes-container is-dark",
-            align_items="start",
-            width="100%"
-        ),
-        rx.script(src="/js/countdown.js"),
+        # rx.vstack(
+        #     rx.hstack(
+        #         rx.text(
+        #             "Próximo regalo y ganadores en",
+        #             # "Calendario 2024 en",
+        #             margin_right=Size.DEFAULT.value
+        #         ),
+        #         rx.text(
+        #             id="countdown",
+        #             margin_left=Size.ZERO.value
+        #         ),
+        #         align_items="start",
+        #         flex_direction=styles.FLEX_DIRECTION
+        #     ),
+        #     # button(
+        #     #     "Recordar",
+        #     #     constants.DISCORD_EVENT_URL
+        #     # ),
+        #     rx.el.span(
+        #         "• Los regalos son sorpresa, permanecerán ocultos hasta el día de su publicación. No olvides pasarte por aquí cada día para descubrir un nuevo sorteo."
+        #     ),
+        #     rx.el.span(
+        #         "• Puedes seleccionar cada regalo para conocer a los ganadores una vez se haya publicado el nuevo sorteo (aparecerá en rojo)."
+        #     ),
+        #     class_name="nes-container is-dark",
+        #     align_items="start",
+        #     width="100%"
+        # ),
+        # rx.script(src="/js/countdown.js"),
         style=styles.max_width_style
     )
 
