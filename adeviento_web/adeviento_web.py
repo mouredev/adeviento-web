@@ -1,7 +1,7 @@
 import reflex as rx
 
-import adeviento_web.styles.styles as styles
 from adeviento_web.components.github import github
+from adeviento_web.styles import styles
 from adeviento_web.styles.styles import Size
 from adeviento_web.views.author import author
 from adeviento_web.views.calendar import calendar
@@ -16,6 +16,20 @@ description = "Por quinto año, ¡aquí está el calendario de adviento sorpresa
 preview = "https://adviento.dev/preview.jpg"
 
 
+@rx.page(
+    route="/",
+    title=title,
+    description=description,
+    image=preview,
+    meta=[
+        {"name": "og:type", "content": "website"},
+        {"name": "og:title", "content": title},
+        {"name": "og:description", "content": description},
+        {"name": "og:image", "content": preview},
+        {"name": "twitter:card", "content": "summary_large_image"},
+        {"name": "twitter:site", "content": "@mouredev"},
+    ],
+)
 def index() -> rx.Component:
     return rx.box(
         rx.script("document.documentElement.lang='es'"),
@@ -37,33 +51,18 @@ def index() -> rx.Component:
 
 
 app = rx.App(
+    enable_state=False,
     stylesheets=styles.STYLESHEETS,
     style=styles.BASE_STYLE,
     head_components=[
         rx.script(src="https://www.googletagmanager.com/gtag/js?id=G-Y6GDVB3FJB"),
         rx.script(
             """
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-Y6GDVB3FJB');
-"""
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Y6GDVB3FJB');
+    """
         ),
-    ],
-)
-
-
-app.add_page(
-    index,
-    title=title,
-    description=description,
-    image=preview,
-    meta=[
-        {"name": "og:type", "content": "website"},
-        {"name": "og:title", "content": title},
-        {"name": "og:description", "content": description},
-        {"name": "og:image", "content": preview},
-        {"name": "twitter:card", "content": "summary_large_image"},
-        {"name": "twitter:site", "content": "@mouredev"},
     ],
 )
