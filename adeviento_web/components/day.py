@@ -1,5 +1,6 @@
 import reflex as rx
-from adeviento_web.styles.styles import Size, Color
+
+from adeviento_web.styles.styles import Color, SizeEM
 
 
 def day(number: int, text: str = "", url: str = "", finished=False) -> rx.Component:
@@ -7,15 +8,11 @@ def day(number: int, text: str = "", url: str = "", finished=False) -> rx.Compon
         rx.cond(
             url != "",
             rx.link(
-                rx.image(
-                    src=f"calendar/{number}.png",
-                    alt=text,
-                    padding=Size.SMALL.value
-                ),
+                rx.image(src=f"calendar/{number}.png", alt=text, padding=SizeEM.SMALL.value),
                 href=url,
                 is_external=True,
-                position="absolute"
-            )
+                position="absolute",
+            ),
         ),
         rx.cond(
             url == "",
@@ -23,15 +20,15 @@ def day(number: int, text: str = "", url: str = "", finished=False) -> rx.Compon
                 src="gift.png",
                 alt=f"Regalo asociado al día {number}",
                 position="absolute",
-                padding=Size.SMALL.value
-            )
+                padding=SizeEM.SMALL.value,
+            ),
         ),
-        rx.text(
-            number,
-            padding=Size.DEFAULT.value,
-            position="absolute"
+        rx.text(number, padding=SizeEM.DEFAULT.value, position="absolute"),
+        bg=(
+            Color.ACCENT.value
+            if finished
+            else Color.TERTIARY.value if url != "" else Color.SECONDARY.value
         ),
-        bg=Color.ACCENT.value if finished else Color.TERTIARY.value if url != "" else Color.SECONDARY.value,
         aspect_ratio="1",
-        position="relative"
+        position="relative",
     )
