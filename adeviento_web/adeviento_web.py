@@ -16,10 +16,6 @@ description = "Por quinto año, ¡aquí está el calendario de adviento sorpresa
 preview = "https://adviento.dev/preview.jpg"
 
 
-class State(rx.State):
-    pass
-
-
 def index() -> rx.Component:
     return rx.box(
         rx.script("document.documentElement.lang='es'"),
