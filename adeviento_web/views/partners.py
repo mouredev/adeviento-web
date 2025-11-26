@@ -13,8 +13,11 @@ def partners() -> rx.Component:
                 _partner_link("elgato.png", "https://e.lga.to/MoureDev", "Elgato"),
                 _partner_link("raiola.png", "https://mouredev.link/raiola", "Raiola Networks"),
                 _partner_link("mouredevpro.png", "https://mouredev.pro", "mouredev pro"),
-                columns=rx.breakpoints(initial="2", xs="2", sm="4", md="4", lg="4", xl="4"),
-                spacing=Size.VERY_BIG.value,
+                columns=rx.breakpoints(initial="1", sm="3"),
+                spacing=rx.breakpoints(
+                    initial=Size.ZERO.value,
+                    sm=Size.VERY_BIG.value,
+                ),
             ),
             padding_y=SizeEM.VERY_BIG.value,
             style=styles.max_width_style,

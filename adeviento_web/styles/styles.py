@@ -20,6 +20,7 @@ class SizeEM(Enum):
 
 
 class Size(Enum):
+    ZERO = "0"
     SMALL = "3"
     DEFAULT = "4"  # 1em
     MEDIUM = "5"

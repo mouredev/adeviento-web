@@ -33,7 +33,7 @@ preview = "https://adviento.dev/preview.jpg"
 def index() -> rx.Component:
     return rx.box(
         rx.script("document.documentElement.lang='es'"),
-        rx.script(src="/js/snow.js"),
+        rx.script(src="/js/snow.js", defer=True),
         navbar(),
         rx.vstack(
             header(),

@@ -103,7 +103,7 @@ def calendar() -> rx.Component:
             width="100%",
             padding_y=SizeEM.BIG.value
         ),
-        rx.script(src="/js/countdown.js"),
+        rx.script(src="/js/countdown.js", defer=True),
         style=styles.max_width_style,
     )
 
