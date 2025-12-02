@@ -10,8 +10,13 @@ from adeviento_web.styles.styles import Size, SizeEM
 _gifts = [
     (
         "Suscripción mensual o curso de mouredev pro: Estudia programación de manera diferente",
-        "https://x.com/MoureDev/status/1995508722119168109?s=20",
+        "https://x.com/MoureDev/status/1995864813151682812?s=20",
         "https://mouredev.pro",
+    ),
+    (
+        "Git y GitHub desde cero: Guía de estudio teórico-práctica paso a paso más curso en vídeo",
+        "https://x.com/MoureDev/status/1995868676751589658?s=20",
+        "https://mouredev.link/libro-git",
     ),
 ]
 
