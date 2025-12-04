@@ -20,8 +20,13 @@ _gifts = [
     ),
     (
         "Suscripción mensual a Commit Academy",
-        "https://x.com/MoureDev/status/1996228408448094547?s=20",
+        "https://x.com/MoureDev/status/1996575687985999966?s=20",
         "https://www.commitacademy.io",
+    ),
+    (
+        "Patrones de diseño",
+        "https://x.com/MoureDev/status/1996577672307048716?s=20",
+        "https://refactoring.guru/es/design-patterns/book",
     ),
 ]
 
