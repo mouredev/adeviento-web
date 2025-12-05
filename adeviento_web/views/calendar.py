@@ -25,8 +25,13 @@ _gifts = [
     ),
     (
         "Patrones de diseño",
-        "https://x.com/MoureDev/status/1996577672307048716?s=20",
+        "https://x.com/MoureDev/status/1996940547877896693?s=20",
         "https://refactoring.guru/es/design-patterns/book",
+    ),
+    (
+        "Software Cafrers: Haciendo código que haría vomitar a una cabra",
+        "https://x.com/MoureDev/status/1996941008752238777?s=20",
+        "https://savvily.es/libros/software-cafrers/",
     ),
 ]
 
