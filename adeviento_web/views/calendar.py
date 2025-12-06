@@ -33,6 +33,11 @@ _gifts = [
         "https://x.com/MoureDev/status/1996941008752238777?s=20",
         "https://savvily.es/libros/software-cafrers/",
     ),
+    (
+        "Mastering Genkit: Go Edition",
+        "https://x.com/MoureDev/status/1997364243574804920?s=20",
+        "https://www.amazon.com/dp/B0G4HKJRPB",
+    ),
 ]
 
 _current_day = len(_gifts) - 1
