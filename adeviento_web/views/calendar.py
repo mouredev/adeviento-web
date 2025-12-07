@@ -30,13 +30,18 @@ _gifts = [
     ),
     (
         "Software Cafrers: Haciendo código que haría vomitar a una cabra",
-        "https://x.com/MoureDev/status/1996941008752238777?s=20",
+        "https://x.com/MoureDev/status/1997689964579176789?s=20",
         "https://savvily.es/libros/software-cafrers/",
     ),
     (
         "Mastering Genkit: Go Edition",
-        "https://x.com/MoureDev/status/1997364243574804920?s=20",
+        "https://x.com/MoureDev/status/1997691140066414661?s=20",
         "https://www.amazon.com/dp/B0G4HKJRPB",
+    ),
+    (
+        "Licencia anual para cualquier IDE de JetBrains",
+        "https://x.com/MoureDev/status/1997694623763091918?s=20",
+        "https://www.jetbrains.com/es-es/",
     ),
 ]
 
