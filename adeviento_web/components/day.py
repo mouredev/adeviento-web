@@ -8,7 +8,7 @@ def day(number: int, text: str = "", url: str = "", finished=False) -> rx.Compon
         rx.cond(
             url != "",
             rx.link(
-                rx.image(src=f"calendar/{number}.png", alt=text, padding=SizeEM.SMALL.value),
+                rx.image(src=f"/calendar/{number}.png", alt=text, padding=SizeEM.SMALL.value),
                 href=url,
                 is_external=True,
                 position="absolute",

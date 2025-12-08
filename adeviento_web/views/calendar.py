@@ -35,13 +35,18 @@ _gifts = [
     ),
     (
         "Mastering Genkit: Go Edition",
-        "https://x.com/MoureDev/status/1997691140066414661?s=20",
+        "https://x.com/MoureDev/status/1998044018706702719?s=20",
         "https://www.amazon.com/dp/B0G4HKJRPB",
     ),
     (
         "Licencia anual para cualquier IDE de JetBrains",
         "https://x.com/MoureDev/status/1997694623763091918?s=20",
         "https://www.jetbrains.com/es-es/",
+    ),
+    (
+        "Aprendiendo React: Guía práctica para aprender desde cero",
+        "https://x.com/MoureDev/status/1998046952714355193?s=20",
+        "https://amzn.to/3Ky6iHy",
     ),
 ]
 
@@ -118,8 +123,8 @@ def calendar() -> rx.Component:
                     number + 1,
                     _gift_name(number),
                     _gift_url(number),
-                    # False if len(_gifts) - 1 == number else True
-                    True,  # finalizado
+                    False if len(_gifts) - 1 == number else True,
+                    # True,  # finalizado
                 )
                 for _, number in enumerate(range(0, _current_day + 1))
             ],
