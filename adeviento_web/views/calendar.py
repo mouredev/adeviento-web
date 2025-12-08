@@ -35,12 +35,12 @@ _gifts = [
     ),
     (
         "Mastering Genkit: Go Edition",
-        "https://x.com/MoureDev/status/1998044018706702719?s=20",
+        "https://x.com/MoureDev/status/1997691140066414661?s=20",
         "https://www.amazon.com/dp/B0G4HKJRPB",
     ),
     (
         "Licencia anual para cualquier IDE de JetBrains",
-        "https://x.com/MoureDev/status/1997694623763091918?s=20",
+        "https://x.com/MoureDev/status/1998044018706702719?s=20",
         "https://www.jetbrains.com/es-es/",
     ),
     (
