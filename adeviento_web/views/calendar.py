@@ -45,8 +45,13 @@ _gifts = [
     ),
     (
         "Aprendiendo React: Guía práctica para aprender desde cero",
-        "https://x.com/MoureDev/status/1998046952714355193?s=20",
+        "https://x.com/MoureDev/status/1998400615223894066?s=20",
         "https://amzn.to/3Ky6iHy",
+    ),
+    (
+        "Git y GitHub desde cero: Guía de estudio teórico-práctica paso a paso más curso en vídeo",
+        "https://x.com/MoureDev/status/1998401246760231095?s=20",
+        "https://mouredev.link/libro-git",
     ),
 ]
 
