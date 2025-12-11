@@ -55,8 +55,13 @@ _gifts = [
     ),
     (
         "Curso de desarrollo Android en AppCademy",
-        "https://x.com/MoureDev/status/1998776347053773180?s=20",
+        "https://x.com/MoureDev/status/1999131667156369522?s=20",
         "https://www.appcademy.dev",
+    ),
+    (
+        "Suscripción mensual o curso de mouredev pro: Estudia programación de manera diferente",
+        "https://x.com/MoureDev/status/1999132169898270799?s=20",
+        "https://mouredev.pro",
     ),
 ]
 
