@@ -60,8 +60,13 @@ _gifts = [
     ),
     (
         "Suscripción mensual o curso de mouredev pro: Estudia programación de manera diferente",
-        "https://x.com/MoureDev/status/1999132169898270799?s=20",
+        "https://x.com/MoureDev/status/1999493072833683918?s=20",
         "https://mouredev.pro",
+    ),
+    (
+        "El programador pragmático: Viaje a la maestría",
+        "https://x.com/MoureDev/status/1999493992824865012?s=20",
+        "https://amzn.to/4g9awQx",
     ),
 ]
 
