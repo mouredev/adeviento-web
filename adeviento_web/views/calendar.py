@@ -65,8 +65,13 @@ _gifts = [
     ),
     (
         "El programador pragmático: Viaje a la maestría",
-        "https://x.com/MoureDev/status/1999493992824865012?s=20",
+        "https://x.com/MoureDev/status/1999848595969675509?s=20",
         "https://amzn.to/4g9awQx",
+    ),
+    (
+        "Membresía mensual a los cursos de Cuarzo STAR",
+        "https://x.com/MoureDev/status/1999849037671919693?s=20",
+        "https://cuarzo.dev/cursos",
     ),
 ]
 
