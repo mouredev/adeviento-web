@@ -70,8 +70,13 @@ _gifts = [
     ),
     (
         "Membresía mensual a los cursos de Cuarzo STAR",
-        "https://x.com/MoureDev/status/1999849037671919693?s=20",
+        "https://x.com/MoureDev/status/2000227405038862439?s=20",
         "https://cuarzo.dev/cursos",
+    ),
+    (
+        "Licencia anual para cualquier IDE de JetBrains",
+        "https://x.com/MoureDev/status/2000227644999077893?s=20",
+        "https://www.jetbrains.com/es-es/",
     ),
 ]
 
