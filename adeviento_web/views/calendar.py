@@ -75,8 +75,13 @@ _gifts = [
     ),
     (
         "Licencia anual para cualquier IDE de JetBrains",
-        "https://x.com/MoureDev/status/2000227644999077893?s=20",
+        "https://x.com/MoureDev/status/2000587045018689652?s=20",
         "https://www.jetbrains.com/es-es/",
+    ),
+    (
+        "Suscripción mensual o curso de mouredev pro: Estudia programación de manera diferente",
+        "https://x.com/MoureDev/status/2000587533923619247?s=20",
+        "https://mouredev.pro",
     ),
 ]
 
