@@ -80,8 +80,13 @@ _gifts = [
     ),
     (
         "Suscripción mensual o curso de mouredev pro: Estudia programación de manera diferente",
-        "https://x.com/MoureDev/status/2000587533923619247?s=20",
+        "https://x.com/MoureDev/status/2000967154498159099?s=20",
         "https://mouredev.pro",
+    ),
+    (
+        "Git y GitHub desde cero: Guía de estudio teórico-práctica paso a paso más curso en vídeo",
+        "https://x.com/MoureDev/status/2000967705671942281?s=20",
+        "https://mouredev.link/libro-git",
     ),
 ]
 
