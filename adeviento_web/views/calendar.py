@@ -85,8 +85,13 @@ _gifts = [
     ),
     (
         "Git y GitHub desde cero: Guía de estudio teórico-práctica paso a paso más curso en vídeo",
-        "https://x.com/MoureDev/status/2000967705671942281?s=20",
+        "https://x.com/MoureDev/status/2001304279278027248?s=20",
         "https://mouredev.link/libro-git",
+    ),
+    (
+        "Elgato Stream Deck +",
+        "https://x.com/MoureDev/status/2001307052270846084?s=20",
+        "https://www.elgato.com/es/es/p/stream-deck-plus",
     ),
 ]
 
