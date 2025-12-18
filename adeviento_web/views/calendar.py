@@ -90,8 +90,13 @@ _gifts = [
     ),
     (
         "Elgato Stream Deck +",
-        "https://x.com/MoureDev/status/2001307052270846084?s=20",
+        "https://x.com/MoureDev/status/2001675039394205898?s=20",
         "https://www.elgato.com/es/es/p/stream-deck-plus",
+    ),
+    (
+        "Suscripción mensual o curso de Metal Code: Cursos enfocados al aprendizaje por conceptos",
+        "https://x.com/MoureDev/status/2001675976372015403?s=20",
+        "https://metalcode.io",
     ),
 ]
 
