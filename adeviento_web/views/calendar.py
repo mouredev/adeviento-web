@@ -95,8 +95,13 @@ _gifts = [
     ),
     (
         "Suscripción mensual o curso de Metal Code: Cursos enfocados al aprendizaje por conceptos",
-        "https://x.com/MoureDev/status/2001675976372015403?s=20",
+        "https://x.com/MoureDev/status/2002033699588608116?s=20",
         "https://metalcode.io",
+    ),
+    (
+        "Hosting + Dominio anual en Raiola Networks",
+        "https://x.com/MoureDev/status/2002034005584105712?s=20",
+        "https://mouredev.link/raiola",
     ),
 ]
 
