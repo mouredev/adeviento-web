@@ -100,8 +100,13 @@ _gifts = [
     ),
     (
         "Hosting + Dominio anual en Raiola Networks",
-        "https://x.com/MoureDev/status/2002034005584105712?s=20",
+        "https://x.com/MoureDev/status/2002395389136154660?s=20",
         "https://mouredev.link/raiola",
+    ),
+    (
+        "La asombrosa era digital: Inteligencia artificial y robótica",
+        "https://x.com/MoureDev/status/2002395996332957738?s=20",
+        "https://amzn.to/4s4tsWK",
     ),
 ]
 
