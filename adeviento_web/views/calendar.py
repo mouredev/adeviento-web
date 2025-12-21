@@ -105,8 +105,13 @@ _gifts = [
     ),
     (
         "La asombrosa era digital: Inteligencia artificial y robótica",
-        "https://x.com/MoureDev/status/2002395996332957738?s=20",
+        "https://x.com/MoureDev/status/2002758120276463742?s=20",
         "https://amzn.to/4s4tsWK",
+    ),
+    (
+        "Suscripción mensual o curso de Hola Mundo: Cursos de programación para todo el mundo",
+        "https://x.com/MoureDev/status/2002758501660328030?s=20",
+        "https://academia.holamundo.io",
     ),
 ]
 
