@@ -110,8 +110,13 @@ _gifts = [
     ),
     (
         "Suscripción mensual o curso de Hola Mundo: Cursos de programación para todo el mundo",
-        "https://x.com/MoureDev/status/2002758501660328030?s=20",
+        "https://x.com/MoureDev/status/2003173757448597521?s=20",
         "https://academia.holamundo.io",
+    ),
+    (
+        "Suscripción mensual a Hack4u: Aprende ciberseguridad",
+        "https://x.com/MoureDev/status/2003174021802656238?s=20",
+        "https://hack4u.io",
     ),
 ]
 
