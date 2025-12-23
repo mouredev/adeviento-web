@@ -115,8 +115,13 @@ _gifts = [
     ),
     (
         "Suscripción mensual a Hack4u: Aprende ciberseguridad",
-        "https://x.com/MoureDev/status/2003174021802656238?s=20",
+        "https://x.com/MoureDev/status/2003484334049886247?s=20",
         "https://hack4u.io",
+    ),
+    (
+        "Git y GitHub desde cero: Guía de estudio teórico-práctica paso a paso más curso en vídeo",
+        "https://x.com/MoureDev/status/2003485832515321995?s=20",
+        "https://mouredev.link/libro-git",
     ),
 ]
 
