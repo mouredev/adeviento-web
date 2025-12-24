@@ -120,8 +120,13 @@ _gifts = [
     ),
     (
         "Git y GitHub desde cero: Guía de estudio teórico-práctica paso a paso más curso en vídeo",
-        "https://x.com/MoureDev/status/2003485832515321995?s=20",
+        "https://x.com/MoureDev/status/2003846186382524818?s=20",
         "https://mouredev.link/libro-git",
+    ),
+    (
+        "Suscripción anual a mouredev pro: Estudia programación de manera diferente",
+        "https://x.com/MoureDev/status/2003847124778369366?s=20",
+        "https://mouredev.pro",
     ),
 ]
 
