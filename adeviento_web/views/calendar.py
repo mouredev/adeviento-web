@@ -125,7 +125,7 @@ _gifts = [
     ),
     (
         "Suscripción anual a mouredev pro: Estudia programación de manera diferente",
-        "https://x.com/MoureDev/status/2003847124778369366?s=20",
+        "https://x.com/MoureDev/status/2003847520242586063?s=20",
         "https://mouredev.pro",
     ),
 ]
