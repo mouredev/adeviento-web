@@ -1,10 +1,8 @@
 import reflex as rx
 
 import adeviento_web.styles.styles as styles
-from adeviento_web.components.button import button
 from adeviento_web.components.day import day
 from adeviento_web.components.header_text import header_text
-from adeviento_web.styles.colors import TextColor
 from adeviento_web.styles.styles import Size, SizeEM
 
 _gifts = [
@@ -125,7 +123,7 @@ _gifts = [
     ),
     (
         "Suscripción anual a mouredev pro: Estudia programación de manera diferente",
-        "https://x.com/MoureDev/status/2003847520242586063?s=20",
+        "https://x.com/MoureDev/status/2004203054049173951?s=20",
         "https://mouredev.pro",
     ),
 ]
@@ -135,51 +133,51 @@ _current_day = len(_gifts) - 1
 
 def calendar() -> rx.Component:
     return rx.vstack(
-        # header_text("heart", "Calendario 2025.¡Feliz Navidad!"),
-        header_text("heart", "Calendario 2025"),
-        rx.vstack(
-            rx.text("El regalo de hoy", class_name="title", color=TextColor.ACCENT.value),
-            rx.flex(
-                rx.box(
-                    day(
-                        _current_day + 1,
-                        _gift_name(_current_day),
-                        _gift_url(_current_day),
-                    ),
-                    height="14em",
-                    width="14em",
-                    aspect_ratio="1",
-                    margin_right=SizeEM.BIG.value,
-                ),
-                rx.vstack(
-                    rx.el.span(f"Día {_current_day + 1}"),
-                    rx.link(
-                        _gift_name(_current_day), href=_gift_info(_current_day), is_external=True
-                    ),
-                    rx.spacer(),
-                    rx.flex(
-                        button("Participar", _gift_url(_current_day)),
-                        rx.cond(
-                            _current_day > 1,
-                            button(f"Día {_current_day}", _gift_url(_current_day - 1)),
-                        ),
-                        align_items="start",
-                        flex_direction=styles.FLEX_DIRECTION,
-                    ),
-                    align_items="start",
-                    margin_top=SizeEM.BIG.value,
-                ),
-                flex_direction=styles.FLEX_DIRECTION,
-            ),
-            width="100%",
-            class_name="nes-container is-dark with-title",
-            align_items="start",
-        ),
+        header_text("heart", "Calendario 2025.¡Feliz Navidad!"),
+        # header_text("heart", "Calendario 2025"),
+        # rx.vstack(
+        #     rx.text("El regalo de hoy", class_name="title", color=TextColor.ACCENT.value),
+        #     rx.flex(
+        #         rx.box(
+        #             day(
+        #                 _current_day + 1,
+        #                 _gift_name(_current_day),
+        #                 _gift_url(_current_day),
+        #             ),
+        #             height="14em",
+        #             width="14em",
+        #             aspect_ratio="1",
+        #             margin_right=SizeEM.BIG.value,
+        #         ),
+        #         rx.vstack(
+        #             rx.el.span(f"Día {_current_day + 1}"),
+        #             rx.link(
+        #                 _gift_name(_current_day), href=_gift_info(_current_day), is_external=True
+        #             ),
+        #             rx.spacer(),
+        #             rx.flex(
+        #                 button("Participar", _gift_url(_current_day)),
+        #                 rx.cond(
+        #                     _current_day > 1,
+        #                     button(f"Día {_current_day}", _gift_url(_current_day - 1)),
+        #                 ),
+        #                 align_items="start",
+        #                 flex_direction=styles.FLEX_DIRECTION,
+        #             ),
+        #             align_items="start",
+        #             margin_top=SizeEM.BIG.value,
+        #         ),
+        #         flex_direction=styles.FLEX_DIRECTION,
+        #     ),
+        #     width="100%",
+        #     class_name="nes-container is-dark with-title",
+        #     align_items="start",
+        # ),
         rx.vstack(
             rx.hstack(
                 rx.text(
-                    "Próximo regalo y ganador en",
-                    # "Calendario 2025 en",
+                    # "Próximo regalo y ganador en",
+                    "Calendario 2026 en",
                     margin=SizeEM.ZERO.value,
                 ),
                 rx.text(id="countdown", margin_left=SizeEM.ZERO.value),
@@ -203,8 +201,8 @@ def calendar() -> rx.Component:
                     number + 1,
                     _gift_name(number),
                     _gift_url(number),
-                    False if len(_gifts) - 1 == number else True,
-                    # True,  # finalizado
+                    # False if len(_gifts) - 1 == number else True,
+                    True,  # finalizado
                 )
                 for _, number in enumerate(range(0, _current_day + 1))
             ],
